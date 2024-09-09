@@ -50,7 +50,7 @@ Feel free to further develop and enhance it as needed!
 
 ---
 
-# Responsive Navigation Bar
+<!-- # Responsive Navigation Bar
 
 ## [Watch it on YouTube](https://youtu.be/k-jwXwpNuXI)
 
@@ -63,4 +63,4 @@ Feel free to further develop and enhance it as needed!
 
 💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
 
-![preview img](/preview.png)
+![preview img](/preview.png) -->
