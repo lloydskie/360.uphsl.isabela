@@ -42,7 +42,7 @@
         font-size: 35px;
     }
 }
-/
+
 /* Media query for small screens (mobile) */
 @media (max-width: 768px) {
     .box {
