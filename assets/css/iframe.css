@@ -39,7 +39,7 @@
 /* Media query for small screens (Tablet) */
 @media (max-width: 960px) {
     .title {
-        font-size: 35px;
+        font-size: 20px;
     }
 }
 
