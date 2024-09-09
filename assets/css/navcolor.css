@@ -1,0 +1,15 @@
+.navbar-above {
+	background-color:#003399;
+	height:20px;
+	margin-top:0px;
+}
+.navbar-above1 {
+	background-color:#FFF100;
+	height:5px;
+}
+.navbar-above2 {
+    margin: none;
+    padding: none;
+	background-color:#FFF100;
+	height:30px;
+}
