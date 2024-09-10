@@ -6,7 +6,27 @@
     overflow: hidden;
     background-color: #FFF100;
 }
-
+/* Media query for small screens (Laptop 4k) */
+@media (max-width: 2560px) {
+    #hero-img {
+        margin: 0 auto;
+        height: 750px;
+    }
+}
+/* Media query for small screens (Laptop L) */
+@media (max-width: 1440px) {
+    #hero-img {
+        margin: 0 auto;
+        height: 430px;
+    }
+}
+/* Media query for small screens (Laptop) */
+@media (max-width: 1024px) {
+    #hero-img {
+        margin: 0 auto;
+        height: 300px;
+    }
+}
 /* Media query for small screens (Tablet) */
 @media (max-width: 960px) {
     #hero-img {
@@ -18,7 +38,7 @@
 @media (max-width: 768px) {
     #hero-img {
         margin: 0 auto;
-        height: 125px;
+        height: 230px;
     }
 }
 /* Media query for small screens (Mobile L) */
