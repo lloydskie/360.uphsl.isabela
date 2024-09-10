@@ -108,6 +108,16 @@ a {
 #socialcontacts {
   color: #ffffff;
 }
+@media screen and (max-width: 1440px) {
+  #privacy-policy {
+    margin-right: 690px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #privacy-policy {
+    margin-right: 540px;
+  }
+}
 @media screen and (max-width: 960px) {
   #privacy-policy {
     margin-right: 300px;
@@ -115,7 +125,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   #privacy-policy {
-    margin-right: 50px;
+    margin-right: 400px;
     font-size: 10px;
   }
   #mailto {
@@ -130,6 +140,21 @@ a {
   }
   #socialinsta {
     margin-right: 10px;
+  }
+}
+@media screen and (max-width: 430px) {
+  #privacy-policy {
+    margin-right: 80px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #privacy-policy {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #privacy-policy {
+    margin-right: 3px;
   }
 }
 
