@@ -212,7 +212,7 @@ a {
 /* Show menu */
 .show-menu {
   opacity: 1;
-  top: 3.5rem;
+  top: 6.3rem;
   pointer-events: initial;
 }
 
@@ -379,7 +379,7 @@ a {
     transform: rotate(180deg);
   }
   .dropdown__item:hover > .dropdown__container {
-    top: 5.5rem;
+    top: 8.3rem;
     opacity: 1;
     pointer-events: initial;
     cursor: initial;
