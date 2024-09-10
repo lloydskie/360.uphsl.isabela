@@ -1,0 +1,38 @@
+.privacy-policy {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* Default 16:9 aspect ratio */
+}
+
+/* Media query for larger screens (desktops) */
+@media (min-width: 1024px) {
+    .privacy-policy {
+        width: 90%;
+        margin: 0 auto;
+        /* Reduced height on larger screens */
+    }
+}
+/* Media query for small screens (Tablet) */
+@media (max-width: 960px) {
+    .privacy-policy {
+        width: 90%;
+        margin: 0 auto;
+        /* Reduced height on larger screens */
+    }
+    #hero-img {
+        margin-top: 100px;
+    }
+}
+/* Media query for small screens (Tablet) */
+@media (max-width: 768px) {
+    .privacy-policy {
+        width: 90%;
+        margin: 0 auto;
+        /* Reduced height on larger screens */
+    }
+    #hero-img {
+        margin-top: 100px;
+    }
+}
+
