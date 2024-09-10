@@ -14,6 +14,13 @@
     }
 }
 /* Media query for small screens (Laptop L) */
+@media (max-width: 1920px) {
+    #hero-img {
+        margin: 0 auto;
+        height: 550px;
+    }
+}
+/* Media query for small screens (Laptop L) */
 @media (max-width: 1440px) {
     #hero-img {
         margin: 0 auto;
