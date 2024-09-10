@@ -70,6 +70,69 @@ a {
   z-index: var(--z-fixed);
 }
 
+/*=============== TOP NAV ===============*/
+.topnavbar-above {
+  background-color:#003399;
+	height:10px;
+	margin-top:0px;
+}
+.topnav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #003399;
+  font-size: 12px;
+  padding-bottom: 1em;
+}
+#privacy-policy {
+  color: #ffffff;
+  margin-right: 600px;
+}
+#mailto {
+  color: #ffffff;
+  margin-right: 20px;
+}
+#mailtoadd {
+  color: #ffffff;
+  margin-right: 30px;
+}
+#socialfb {
+  color: #ffffff;
+  margin-right: 30px;
+}
+#socialinsta {
+  color: #ffffff;
+  margin-right: 30px;
+}
+#socialcontacts {
+  color: #ffffff;
+}
+@media screen and (max-width: 960px) {
+  #privacy-policy {
+    margin-right: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #privacy-policy {
+    margin-right: 50px;
+    font-size: 10px;
+  }
+  #mailto {
+    margin-right: 5px;
+  }
+  #mailtoadd {
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  #socialfb {
+    margin-right: 10px;
+  }
+  #socialinsta {
+    margin-right: 10px;
+  }
+}
+
 /*=============== NAV ===============*/
 .nav {
   height: var(--header-height);
