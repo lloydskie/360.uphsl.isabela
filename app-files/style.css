@@ -23,7 +23,7 @@ html, body {
   margin: 0;
   overflow: hidden;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   background-color: #000;
   color: #fff;
 }
@@ -79,8 +79,8 @@ body.multiple-scenes.mobile #titleBar {
   height: 100%;
   line-height: 30px;
   padding: 5px;
-  background-color: rgb(0,51,153);
-  background-color: rgba(0,51,153,0.5);
+  background-color: rgb(58,68,84);
+  background-color: rgba(58,68,84,0.8);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -103,8 +103,8 @@ body.multiple-scenes.mobile #titleBar {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(0,51,153);
-  background-color: rgba(0,51,153,0.5);
+  background-color: rgb(103,115,131);
+  background-color: rgba(103,115,131,0.8);
 }
 
 .mobile #fullscreenToggle {
@@ -153,8 +153,8 @@ body.fullscreen-enabled #fullscreenToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(0,51,153);
-  background-color: rgba(0, 51, 153, 0.5);
+  background-color: rgb(103,115,131);
+  background-color: rgba(103,115,131,0.8);
 }
 
 .mobile #autorotateToggle {
@@ -207,8 +207,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(0,51,153);
-  background-color: rgba(0,51,153,0.5);
+  background-color: rgb(103,115,131);
+  background-color: rgba(103,115,131,0.8);
 }
 
 .mobile #sceneListToggle {
@@ -273,8 +273,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #sceneList .scenes {
   width: 100%;
-  background-color: rgb(0,51,153);
-  background-color: rgba(0,51,153,0.5);
+  background-color: rgb(58,68,84);
+  background-color: rgba(58,68,84,0.8);
 }
 
 .mobile #sceneList {
@@ -320,13 +320,13 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 .no-touch #sceneList .scene:hover {
-  background-color: rgb(0,51,153);
-  background-color: rgba(0,51,153,0.8);
+  background-color: rgb(103,115,131);
+  background-color: rgba(103,115,131,0.8);
 }
 
 #sceneList .scene.current {
-  background-color: rgb(0,51,153);
-  background-color: rgba(0,51,153,0.8);
+  background-color: rgb(103,115,131);
+  background-color: rgba(103,115,131,0.8);
 }
 
 /* Hide scene list when only a single scene exists */
@@ -351,8 +351,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 .mobile .link-hotspot {
-  width: 30px;
-  height: 30px;
+  width: 70px;
+  height: 70px;
 }
 
 .link-hotspot-icon {
@@ -368,7 +368,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
   margin-left: 3px;
 
-  font-size: 12px;
+  font-size: 16px;
 
   max-width: 300px;
 
@@ -453,7 +453,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(0,51,153);
+  background-color: rgb(103,115,131);
   cursor: pointer;
   -webkit-transition: width 0.3s ease-in-out 0.5s,
                       border-radius 0.3s ease-in-out 0.5s;
@@ -462,8 +462,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 .mobile .info-hotspot .info-hotspot-header {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border-radius: 25px;
 }
 
@@ -502,12 +502,6 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 .info-hotspot .info-hotspot-icon {
   width: 90%;
   height: 90%;
-  margin: 5%;
-}
-
-.mobile .info-hotspot .info-hotspot-icon {
-  width: 50%;
-  height: 50%;
   margin: 5%;
 }
 
@@ -792,8 +786,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(0,51,153);
-  background-color: rgba(0,51,153,0.5);
+  background-color: rgb(103,115,131);
+  background-color: rgba(103,115,131,0.8);
 }
 
 body.view-control-buttons .viewControlButton {

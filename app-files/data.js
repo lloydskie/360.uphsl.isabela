@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-driveway-entrance",
-      "name": "Driveway Entrance",
+      "id": "0-university-entrance",
+      "name": "University Entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -24,917 +24,29 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -0.1362888267116471,
-        "pitch": -0.014656133226651491,
-        "fov": 1.4197706981991627
+        "yaw": 3.058803173082559,
+        "pitch": 0.27301301879627005,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.6877799941679701,
-          "pitch": 0.11599764987637151,
+          "yaw": 1.5048366334863506,
+          "pitch": 0.27162018542184185,
           "rotation": 0,
-          "target": "1-front-driveway"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.03376050129039854,
-          "pitch": -0.14920158286060925,
-          "title": "Christmas Tree",
-          "text": "Text"
+          "target": "1-sidewalk-1"
         },
         {
-          "yaw": 0.49214751604967866,
-          "pitch": 0.23318272245869665,
-          "title": "Driveway",
-          "text": "Text"
-        },
-        {
-          "yaw": 2.0804935350825566,
-          "pitch": 0.025096253544274916,
-          "title": "Parking Lot 1",
-          "text": "Text"
-        },
-        {
-          "yaw": -2.3492852134390176,
-          "pitch": -0.024858882604080534,
-          "title": "University Field",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "1-front-driveway",
-      "name": "Front Driveway",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": -3.065146724552328,
-        "pitch": 0.015924228610263214,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.09568402969193812,
-          "pitch": 0.1368908940624891,
+          "yaw": -3.0789747716364246,
+          "pitch": 0.07275380151658695,
           "rotation": 0,
-          "target": "0-driveway-entrance"
-        },
-        {
-          "yaw": 3.028354490866361,
-          "pitch": 0.020022692979591028,
-          "rotation": 0,
-          "target": "2-main-hallway"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.0828849049553053,
-          "pitch": -0.22760992143591352,
-          "title": "Christmas Tree",
-          "text": "Text"
-        },
-        {
-          "yaw": -1.920070583445364,
-          "pitch": -0.01240075697856824,
-          "title": "Parking Space for Employees",
-          "text": "Text"
-        },
-        {
-          "yaw": -2.7900353098678234,
-          "pitch": -0.40564720687959976,
-          "title": "College Building - Main",
-          "text": "Text"
-        },
-        {
-          "yaw": -3.0998710414553496,
-          "pitch": 0.022958601142335056,
-          "title": "Building Entrance",
-          "text": "Text"
-        },
-        {
-          "yaw": 1.3387170038786387,
-          "pitch": -0.13081720179945933,
-          "title": "University Field Area",
-          "text": "Text"
-        },
-        {
-          "yaw": 0.47649199323064906,
-          "pitch": 0.07883808986842844,
-          "title": "Sidewalk",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "2-main-hallway",
-      "name": "Main Hallway",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": 0.002385400617663791,
-        "pitch": 0.19978700500216107,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.21762747928593562,
-          "pitch": 0.1351729527273946,
-          "rotation": 0,
-          "target": "1-front-driveway"
-        },
-        {
-          "yaw": 3.0423338103528756,
-          "pitch": 0.1441442310564014,
-          "rotation": 0,
-          "target": "3-hotel-lobby"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 2.091045973243375,
-          "pitch": 0.07057173922382987,
-          "title": "University Clinic",
-          "text": "Text"
-        },
-        {
-          "yaw": -2.852441906139912,
-          "pitch": -0.112557041093579,
-          "title": "Supply Center",
-          "text": "Text"
-        },
-        {
-          "yaw": -1.3077994412269707,
-          "pitch": -0.07673230606408232,
-          "title": "Information Board",
-          "text": "Text"
-        },
-        {
-          "yaw": 0.13097019707258362,
-          "pitch": -0.08727880259450771,
-          "title": "University Registrar",
-          "text": "Text"
-        },
-        {
-          "yaw": -0.5638371074644475,
-          "pitch": -0.1916376600418772,
-          "title": "Business Office",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "3-hotel-lobby",
-      "name": "Hotel Lobby",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": 0.4055354170429215,
-        "pitch": 0.16013967689488418,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.553256146795217,
-          "pitch": 0.11981751609524416,
-          "rotation": 0,
-          "target": "2-main-hallway"
-        },
-        {
-          "yaw": 0.1791236845237183,
-          "pitch": 0.09145058156846808,
-          "rotation": 0,
-          "target": "4-hotel-hallway"
-        },
-        {
-          "yaw": 2.59611720606601,
-          "pitch": 0.10842188435475286,
-          "rotation": 0,
-          "target": "5-tindalo-hallway"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.2668212530469951,
-          "pitch": 0.01485126595404651,
-          "title": "CIHM Information Desk",
-          "text": "Text"
-        },
-        {
-          "yaw": -0.060069421836656645,
-          "pitch": -0.4311887496597713,
-          "title": "Mezzanine",
-          "text": "Text"
-        },
-        {
-          "yaw": -2.032208852769667,
-          "pitch": -0.0011543487374758854,
-          "title": "Admin Office",
-          "text": "Text"
-        },
-        {
-          "yaw": 0.819527573883331,
-          "pitch": -0.059840721686484244,
-          "title": "Staircase",
-          "text": "Text"
-        },
-        {
-          "yaw": -1.2367129885670423,
-          "pitch": -0.002742332238579337,
-          "title": "Hotel Entrance",
-          "text": "Text"
-        },
-        {
-          "yaw": 2.5937653523852218,
-          "pitch": -0.0884363267464856,
-          "title": "Tindalo Hallway",
-          "text": "Text"
-        },
-        {
-          "yaw": -2.3734285925035987,
-          "pitch": 0.029930592630723396,
-          "title": "Main Hallway",
-          "text": "Text"
-        },
-        {
-          "yaw": 0.2648912397060954,
-          "pitch": 0.01479053475128822,
-          "title": "Hotel Hallway",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "4-hotel-hallway",
-      "name": "Hotel Hallway",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": 0.07025381923600271,
-        "pitch": 0.1352125948090528,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.9143546312551685,
-          "pitch": 0.061854037236313886,
-          "rotation": 0,
-          "target": "3-hotel-lobby"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.3819916272691337,
-          "pitch": -0.08392244203061594,
-          "title": "Room B",
-          "text": "Text"
-        },
-        {
-          "yaw": 2.6279860787832643,
-          "pitch": 0.005562393003394561,
-          "title": "Room A",
-          "text": "Text"
-        },
-        {
-          "yaw": 2.746482174044429,
-          "pitch": -0.11647025426966806,
-          "title": "Research Office",
-          "text": "Text"
-        },
-        {
-          "yaw": -3.0776973163039667,
-          "pitch": -0.01929700730910433,
-          "title": "CIHM Office",
-          "text": "Text"
-        },
-        {
-          "yaw": -0.8465201413002283,
-          "pitch": 0.0052606141230704395,
-          "title": "CIHM Office",
-          "text": "Text"
-        },
-        {
-          "yaw": -0.03743243867426216,
-          "pitch": -0.02607391885808319,
-          "title": "Room C",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "5-tindalo-hallway",
-      "name": "Tindalo Hallway",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": 2.3622038941859227,
-        "pitch": 0.1302046812195332,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.32624535149819067,
-          "pitch": 0.09747902792548047,
-          "rotation": 0,
-          "target": "3-hotel-lobby"
-        },
-        {
-          "yaw": 1.5213014501013484,
-          "pitch": 0.2457112214996009,
-          "rotation": 0,
-          "target": "8-brick-ground"
-        },
-        {
-          "yaw": 2.7520119084947527,
-          "pitch": 0.18187431891609762,
-          "rotation": 0,
-          "target": "6-tindalo-hall-entrance"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 3.0214392142112985,
-          "pitch": -0.04845591187259046,
-          "title": "Tindalo Hall Entrance",
-          "text": "Text"
-        },
-        {
-          "yaw": -0.6308679805554682,
-          "pitch": 0.00298393991565149,
-          "title": "Comfort Rooms",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "6-tindalo-hall-entrance",
-      "name": "Tindalo Hall Entrance",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": 0.580057427794852,
-        "pitch": 0.038721019041792815,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.6377485256607898,
-          "pitch": 0.21588441784809476,
-          "rotation": 0,
-          "target": "7-tindalo-hall"
-        },
-        {
-          "yaw": 3.1301281577518374,
-          "pitch": 0.10605981242599327,
-          "rotation": 0,
-          "target": "5-tindalo-hallway"
-        },
-        {
-          "yaw": -2.6271176536696306,
-          "pitch": 0.17493613256554852,
-          "rotation": 0,
-          "target": "8-brick-ground"
-        },
-        {
-          "yaw": -1.0606181993093209,
-          "pitch": 0.330571981960615,
-          "rotation": 0,
-          "target": "9-tesda"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.7764555735129335,
-          "pitch": 0.07658630092388563,
-          "title": "Tindalo Hall Entrance",
-          "text": "Text"
-        },
-        {
-          "yaw": -0.8104091081843965,
-          "pitch": -0.22820390283315994,
-          "title": "2nd Floor",
-          "text": "Text"
-        },
-        {
-          "yaw": -1.109268381951873,
-          "pitch": 0.1269160275917507,
-          "title": "Basement",
-          "text": "Text"
-        },
-        {
-          "yaw": 3.1164004713314526,
-          "pitch": 0.24112096554178208,
-          "title": "Tindalo Hallway",
-          "text": "Text"
-        },
-        {
-          "yaw": -2.6298743137194336,
-          "pitch": 0.032106775350133177,
-          "title": "Brick ground Entrance",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "7-tindalo-hall",
-      "name": "Tindalo Hall",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": 0.0005453315000742975,
-        "pitch": 0,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.2399920346093047,
-          "pitch": 0.04681461609147419,
-          "rotation": 0,
-          "target": "6-tindalo-hall-entrance"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.10532812386615653,
-          "pitch": 0.02426140183674974,
-          "title": "Stage",
-          "text": "Text"
-        },
-        {
-          "yaw": -0.7243350984908581,
-          "pitch": 0.06367027751538501,
-          "title": "Technical Area",
-          "text": "Text"
-        },
-        {
-          "yaw": 1.763376876996717,
-          "pitch": 0.02013413954656329,
-          "title": "Cafeteria",
-          "text": "Text"
-        },
-        {
-          "yaw": 0.281302146171452,
-          "pitch": 0.014508664338158894,
-          "title": "Backstage Entrance",
-          "text": "Text"
-        },
-        {
-          "yaw": 2.362912624070269,
-          "pitch": 0.05039538023299883,
-          "title": "Tindalo Hall Entrance",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "8-brick-ground",
-      "name": "Brick ground",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": -0.033737034510203046,
-        "pitch": -0.0018438580496091816,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.6060400887527466,
-          "pitch": -0.003895718378357671,
-          "rotation": 0,
-          "target": "5-tindalo-hallway"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.6918250629858615,
-          "pitch": 0.08102688926168611,
-          "title": "TESDA Hall",
-          "text": "Text"
-        },
-        {
-          "yaw": -2.733615312208972,
-          "pitch": -0.0655849762121079,
-          "title": "Stage",
-          "text": "Text"
-        },
-        {
-          "yaw": 1.3733037720018189,
-          "pitch": 0.11048689261845013,
-          "title": "Concrete Bench",
-          "text": "Text"
-        },
-        {
-          "yaw": 0.40565145355958876,
-          "pitch": 0.01714041211653239,
-          "title": "TESDA Storage Room",
-          "text": "Text"
-        },
-        {
-          "yaw": -0.6373226734874464,
-          "pitch": -0.05443227742730272,
-          "title": "Highschool Building",
-          "text": "Text"
-        },
-        {
-          "yaw": 2.0328728581519018,
-          "pitch": -0.4537582469714234,
-          "title": "College BUilding",
-          "text": "Text"
-        },
-        {
-          "yaw": -0.3382675117559053,
-          "pitch": -0.022688252914601748,
-          "title": "HIghschool Building Backdoor",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "9-tesda",
-      "name": "TESDA",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": -0.20034097363034675,
-        "pitch": 0.01056016315594377,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.2271395461137615,
-          "pitch": -0.17516464132658705,
-          "rotation": 0,
-          "target": "6-tindalo-hall-entrance"
-        },
-        {
-          "yaw": 0.8136858543899255,
-          "pitch": 0.28170922633394113,
-          "rotation": 0,
-          "target": "10-basement-hallway-preschools-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.45386839270918955,
-          "pitch": 0.14480594379160294,
-          "title": "TESDA Entrance",
-          "text": "Text"
-        },
-        {
-          "yaw": 1.1237836539064947,
-          "pitch": 0.005392228490695317,
-          "title": "Basement Entrance",
-          "text": "Text"
-        },
-        {
-          "yaw": -2.2050178938589102,
-          "pitch": -0.4417380009175176,
-          "title": "1st Floor",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "10-basement-hallway-preschools-",
-      "name": "Basement Hallway Preschools ",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": 0.20840405298282505,
-        "pitch": 0.060847315637102994,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.8127451178619864,
-          "pitch": -0.04859510829354541,
-          "rotation": 0,
-          "target": "9-tesda"
-        },
-        {
-          "yaw": 0.20028301552675032,
-          "pitch": 0.10416256073668251,
-          "rotation": 0,
-          "target": "11-back-basement-hallway-entrance"
-        },
-        {
-          "yaw": -2.6196598645540448,
-          "pitch": 0.0352795772261949,
-          "rotation": 0,
-          "target": "12-preschool-room"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.4797556230887503,
-          "pitch": 0.09280435469772286,
-          "title": "Information Board",
-          "text": "Text"
-        },
-        {
-          "yaw": -2.172570317288793,
-          "pitch": -0.1199660341483284,
-          "title": "Preschool",
-          "text": "Text"
-        },
-        {
-          "yaw": -3.075341124598012,
-          "pitch": -0.11606778697037967,
-          "title": "Storage Room",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "11-back-basement-hallway-entrance",
-      "name": "Back Basement Hallway Entrance",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": 0.5357441080219729,
-        "pitch": 0.05900345758749559,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.002131433835686,
-          "pitch": 0.050755228748005976,
-          "rotation": 0,
-          "target": "13-room-gr1---b7"
-        },
-        {
-          "yaw": 2.862745355138137,
-          "pitch": 0.09344196095845092,
-          "rotation": 0,
-          "target": "10-basement-hallway-preschools-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.2003160647300124,
-          "pitch": -0.02317024986082572,
-          "title": "Room GR3",
-          "text": "Text"
-        },
-        {
-          "yaw": -2.6626345493888746,
-          "pitch": -0.197499274812742,
-          "title": "Room GR1 - B7",
-          "text": "Text"
-        },
-        {
-          "yaw": -0.9192568957561633,
-          "pitch": -0.06336620726123954,
-          "title": "Room GR2 - B6",
-          "text": "Text"
-        },
-        {
-          "yaw": 1.0439817203462276,
-          "pitch": -0.10820031539471131,
-          "title": "Backdoor Entrance",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "12-preschool-room",
-      "name": "Preschool Room",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": -0.5219950461347462,
-        "pitch": 0.08850518638124072,
-        "fov": 1.4197706981991627
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.248786074903654,
-          "pitch": 0.029557905874238344,
-          "rotation": 0,
-          "target": "10-basement-hallway-preschools-"
+          "target": "4-driveway-1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "13-room-gr1---b7",
-      "name": "Room GR1 - B7",
+      "id": "1-sidewalk-1",
+      "name": "Sidewalk 1",
       "levels": [
         {
           "tileSize": 256,
@@ -962,16 +74,989 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.58351414145322,
-          "pitch": 0.000784705984379741,
+          "yaw": 1.6130629234310092,
+          "pitch": 0.07951204164424297,
           "rotation": 0,
-          "target": "11-back-basement-hallway-entrance"
+          "target": "3-field-2"
+        },
+        {
+          "yaw": -3.1104416647894197,
+          "pitch": 0.09013483216505946,
+          "rotation": 0,
+          "target": "5-sidewalk-2"
+        },
+        {
+          "yaw": -2.874492880116696,
+          "pitch": 0.04879305731443395,
+          "rotation": 0,
+          "target": "4-driveway-1"
+        },
+        {
+          "yaw": -1.6414653325664315,
+          "pitch": 0.33417285616927295,
+          "rotation": 0,
+          "target": "0-university-entrance"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-field-1",
+      "name": "Field 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "yaw": 0.6782455098736566,
+        "pitch": 0.04763777764140187,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.08921041835150945,
+          "pitch": 0.10573993385623481,
+          "rotation": 0,
+          "target": "3-field-2"
+        },
+        {
+          "yaw": -1.328458732052109,
+          "pitch": 0.16870049052170444,
+          "rotation": 0,
+          "target": "5-sidewalk-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-field-2",
+      "name": "Field 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "yaw": -1.1070645540210684,
+        "pitch": 0.193595096043774,
+        "fov": 1.6154651276708172
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.6526168011719875,
+          "pitch": 0.12440293294874039,
+          "rotation": 0,
+          "target": "1-sidewalk-1"
+        },
+        {
+          "yaw": -3.1290079425785926,
+          "pitch": 0.07172668653500125,
+          "rotation": 0,
+          "target": "2-field-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-driveway-1",
+      "name": "Driveway 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.1173470094570277,
+          "pitch": 0.03754649454977255,
+          "rotation": 0,
+          "target": "5-sidewalk-2"
+        },
+        {
+          "yaw": 2.7552830802960395,
+          "pitch": 0.06694742635395556,
+          "rotation": 0,
+          "target": "0-university-entrance"
+        },
+        {
+          "yaw": 0.6847362552562526,
+          "pitch": 0.22037773107421188,
+          "rotation": 0,
+          "target": "6-parking-driveway-1"
+        },
+        {
+          "yaw": -0.7116769936804985,
+          "pitch": 0.15552995315446694,
+          "rotation": 0,
+          "target": "9-driveway-2"
+        },
+        {
+          "yaw": -2.3328100282094724,
+          "pitch": -0.009351205162062115,
+          "rotation": 0,
+          "target": "2-field-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-sidewalk-2",
+      "name": "Sidewalk 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "yaw": 0.40147625006191134,
+        "pitch": 0.10847830139848824,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.3287594359526356,
+          "pitch": 0.08499220943419772,
+          "rotation": 0,
+          "target": "2-field-1"
+        },
+        {
+          "yaw": 3.1273938453162335,
+          "pitch": 0.10183615068298124,
+          "rotation": 0,
+          "target": "1-sidewalk-1"
+        },
+        {
+          "yaw": 0.30210925666098554,
+          "pitch": 0.1430722584977886,
+          "rotation": 0,
+          "target": "4-driveway-1"
+        },
+        {
+          "yaw": 2.7240881472392076,
+          "pitch": 0.12190700316634562,
+          "rotation": 0,
+          "target": "0-university-entrance"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-parking-driveway-1",
+      "name": "Parking Driveway 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.42290601375122,
+          "pitch": 0.19844834739770256,
+          "rotation": 0,
+          "target": "7-parking-driveway-2"
+        },
+        {
+          "yaw": -0.1902580538033103,
+          "pitch": 0.1472164483985896,
+          "rotation": 0,
+          "target": "9-driveway-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-parking-driveway-2",
+      "name": "Parking Driveway 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.0592933423771953,
+          "pitch": 0.18811324180255085,
+          "rotation": 0,
+          "target": "4-driveway-1"
+        },
+        {
+          "yaw": -0.20740919134932234,
+          "pitch": 0.21843164952139915,
+          "rotation": 0,
+          "target": "8-parking-driveway-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-parking-driveway-3",
+      "name": "Parking Driveway 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-driveway-2",
+      "name": "Driveway 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "yaw": -3.060326846445424,
+        "pitch": 0.04349661061479004,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.13310378796863986,
+          "pitch": 0.12036545033846835,
+          "rotation": 0,
+          "target": "4-driveway-1"
+        },
+        {
+          "yaw": -1.849418152917984,
+          "pitch": 0.1020419926693652,
+          "rotation": 0,
+          "target": "10-driveway-3"
+        },
+        {
+          "yaw": 3.0282896152126657,
+          "pitch": 0.029231451933121377,
+          "rotation": 0,
+          "target": "13-main-building-entrance"
+        },
+        {
+          "yaw": -2.9294574833927687,
+          "pitch": 0.0240154931409009,
+          "rotation": 0,
+          "target": "24-main-building-exit"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "10-driveway-3",
+      "name": "Driveway 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 320,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.7266104621713563,
+          "pitch": 0.19603465484900617,
+          "rotation": 0,
+          "target": "7-parking-driveway-2"
+        },
+        {
+          "yaw": -0.49993564284303815,
+          "pitch": 0.12015229507538905,
+          "rotation": 0,
+          "target": "9-driveway-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "11-parking-driveway-4",
+      "name": "Parking Driveway 4",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.23815275571801742,
+          "pitch": 0.2070825216055745,
+          "rotation": 0,
+          "target": "12-parking-lot"
+        },
+        {
+          "yaw": 3.02170356780411,
+          "pitch": 0.05123647590949787,
+          "rotation": 0,
+          "target": "8-parking-driveway-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "12-parking-lot",
+      "name": "Parking Lot",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.9938564064793187,
+          "pitch": 0.1756799748981308,
+          "rotation": 0,
+          "target": "11-parking-driveway-4"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-main-building-entrance",
+      "name": "Main Building Entrance",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 320,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.04268216472337194,
+          "pitch": 0.17365126205068648,
+          "rotation": 0,
+          "target": "14-main-front-hallway"
+        },
+        {
+          "yaw": 3.025849058635094,
+          "pitch": 0.33115125480423835,
+          "rotation": 0,
+          "target": "9-driveway-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "14-main-front-hallway",
+      "name": "Main Front Hallway",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 320,
+      "initialViewParameters": {
+        "yaw": 2.7426562192186266,
+        "pitch": 0.2348509576656106,
+        "fov": 2.0943951023931953
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.1849839977736742,
+          "pitch": 0.37149368935468097,
+          "rotation": 0,
+          "target": "13-main-building-entrance"
+        },
+        {
+          "yaw": 0.9163788646026507,
+          "pitch": 0.44819783869546725,
+          "rotation": 0,
+          "target": "24-main-building-exit"
+        },
+        {
+          "yaw": 3.0896586804139323,
+          "pitch": 0.19251541722432108,
+          "rotation": 0,
+          "target": "18-clinic"
+        },
+        {
+          "yaw": -0.5462262707395329,
+          "pitch": 0.40918870294209775,
+          "rotation": 0,
+          "target": "15-basement-hallway"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "15-basement-hallway",
+      "name": "Basement Hallway",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 320,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.498114232911492,
+          "pitch": 0.19887396752689313,
+          "rotation": 0,
+          "target": "14-main-front-hallway"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "16-basement-lobby",
+      "name": "Basement Lobby",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 320,
+      "initialViewParameters": {
+        "yaw": -0.8188793526612095,
+        "pitch": 0.4439371697811687,
+        "fov": 2.0943951023931953
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.553040737696879,
+          "pitch": 0.285707460554379,
+          "rotation": 0,
+          "target": "17-cite-department-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "17-cite-department-",
+      "name": "CITE Department ",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 320,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.762028373476239,
+          "pitch": 0.5168522073816124,
+          "rotation": 0,
+          "target": "16-basement-lobby"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "18-clinic",
+      "name": "Clinic",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "yaw": 2.5328426247719644,
+        "pitch": 0.05280389478636849,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.24136248455744536,
+          "pitch": 0.1660407752115738,
+          "rotation": 0,
+          "target": "14-main-front-hallway"
+        },
+        {
+          "yaw": 3.0344189111864956,
+          "pitch": 0.11837180950524306,
+          "rotation": 0,
+          "target": "19-hotel-lobby"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "19-hotel-lobby",
+      "name": "Hotel Lobby",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "yaw": 0.6490410039939256,
+        "pitch": 0.09620138926666932,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.536917800905659,
+          "pitch": 0.1636469510382259,
+          "rotation": 0,
+          "target": "18-clinic"
+        },
+        {
+          "yaw": 2.5788550516126243,
+          "pitch": 0.1524266974599744,
+          "rotation": 0,
+          "target": "20-hallway-tindalo"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "20-hallway-tindalo",
+      "name": "Hallway Tindalo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "yaw": 3.1207899828178913,
+        "pitch": 0.12017497012017664,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.11456473043396365,
+          "pitch": 0.20136589385303338,
+          "rotation": 0,
+          "target": "19-hotel-lobby"
+        },
+        {
+          "yaw": 2.4597944556523803,
+          "pitch": 0.3455650856004784,
+          "rotation": 0,
+          "target": "21-brickground"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "21-brickground",
+      "name": "Brickground",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.5836528955195623,
+          "pitch": 0.015643829895061856,
+          "rotation": 0,
+          "target": "22-tindalo-hall-entrance"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "22-tindalo-hall-entrance",
+      "name": "Tindalo Hall Entrance",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.1353980173615312,
+          "pitch": 0.056165388050267495,
+          "rotation": 0,
+          "target": "20-hallway-tindalo"
+        },
+        {
+          "yaw": -2.6666243531716525,
+          "pitch": 0.22733838795912398,
+          "rotation": 0,
+          "target": "21-brickground"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "23-tindalo",
+      "name": "Tindalo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.243250974476691,
+          "pitch": 0.07267221417838066,
+          "rotation": 0,
+          "target": "22-tindalo-hall-entrance"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "24-main-building-exit",
+      "name": "Main Building Exit",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 320,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.055197192067304,
+          "pitch": 0.14622100462545262,
+          "rotation": 0,
+          "target": "14-main-front-hallway"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "UPHSL-IC Virtual Campus Tour",
+  "name": "360.uphsl.isabela",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
