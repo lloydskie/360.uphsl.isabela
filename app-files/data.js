@@ -735,8 +735,8 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": -0.8188793526612095,
-        "pitch": 0.4439371697811687,
+        "yaw": -0.9772866432720253,
+        "pitch": -0.09825120806079113,
         "fov": 2.0943951023931953
       },
       "linkHotspots": [
@@ -745,6 +745,12 @@ var APP_DATA = {
           "pitch": 0.285707460554379,
           "rotation": 0,
           "target": "17-cite-department-"
+        },
+        {
+          "yaw": -0.2674773763329128,
+          "pitch": -0.2035637991252166,
+          "rotation": 0,
+          "target": "15-basement-hallway"
         }
       ],
       "infoHotspots": []
