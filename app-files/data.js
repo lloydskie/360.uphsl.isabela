@@ -699,9 +699,9 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.19830960604330095,
+        "pitch": 0.0537615620017835,
+        "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
@@ -709,6 +709,12 @@ var APP_DATA = {
           "pitch": 0.19887396752689313,
           "rotation": 0,
           "target": "14-main-front-hallway"
+        },
+        {
+          "yaw": -0.11501755885663201,
+          "pitch": 0.33389722866336413,
+          "rotation": 0,
+          "target": "16-basement-lobby"
         }
       ],
       "infoHotspots": []
@@ -1051,6 +1057,12 @@ var APP_DATA = {
           "pitch": 0.14622100462545262,
           "rotation": 0,
           "target": "14-main-front-hallway"
+        },
+        {
+          "yaw": -3.074331970636713,
+          "pitch": 0.20508778280420614,
+          "rotation": 0,
+          "target": "9-driveway-2"
         }
       ],
       "infoHotspots": []
