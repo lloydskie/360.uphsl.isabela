@@ -13,3 +13,17 @@
 	background-color:#FFF100;
 	height:30px;
 }
+
+/* Media query for small screens (Tablet) */
+@media (max-width: 960px) {
+    .navbar-above2 {
+		height: 5px;
+	}
+}
+
+/* Media query for small screens (mobile) */
+@media (max-width: 768px) {
+    .navbar-above2 {
+		height: 5px;
+	}
+}
