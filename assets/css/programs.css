@@ -1,0 +1,91 @@
+.programs-section {
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+
+.programs-title {
+    margin-top: 50px;
+    color: #B3B3BB;
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.program-divider {
+    margin: 10px auto;
+    width: 10%;
+    border: 1px solid #B3B3BB;
+}
+
+.program {
+    margin: 15px 0;
+    border: 1px solid #B3B3BB;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.program-header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.icon-edit,
+.icon-settings {
+    margin-right: 10px;
+    font-size: 20px; /* Adjust icon size as needed */
+}
+
+.program-name {
+    font-size: 20px;
+}
+
+.program-details {
+    margin-top: 5px;
+    color: #555;
+}
+
+.about {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-title {
+    color: #B3B3BB;
+    text-align: center;
+}
+
+.about p {
+    margin: 10px 0 10px 0;
+}
+
+.about-divider {
+    margin: 10px auto;
+    width: 10%;
+    border: 1px solid #B3B3BB;
+}
+
+.mission-vision {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.mission-vision h2 {
+    color: #B3B3BB;
+    text-align: center;
+}
+
+.mission-vision p {
+    margin: 10px 0 10px 0;
+}
+
+.mission-vision hr {
+    margin: 10px auto;
+    width: 10%;
+    border: 1px solid #B3B3BB;
+}

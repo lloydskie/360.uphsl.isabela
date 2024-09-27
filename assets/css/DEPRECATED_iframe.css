@@ -1,0 +1,36 @@
+/* Default iframe style */
+iframe[name="myiFrame"] {
+    border: 0px;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+}
+
+/* Responsive styles for 1024px */
+@media (max-width: 1024px) {
+    iframe[name="myiFrame"] {
+        height: 350px;
+        width: 90%;
+        /* Adjust the width */
+    }
+}
+
+/* Responsive styles for 960px */
+@media (max-width: 960px) {
+    iframe[name="myiFrame"] {
+        height: 320px;
+        width: 85%;
+        /* Adjust the width */
+    }
+}
+
+/* Responsive styles for 768px */
+@media (max-width: 768px) {
+    iframe[name="myiFrame"] {
+        height: 300px;
+        width: 80%;
+        /* Adjust the width */
+    }
+}

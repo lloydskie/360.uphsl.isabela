@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="stylesheet" href="assets/css/iframe.css">
         <link rel="stylesheet" href="assets/css/navcolor.css">
         <link rel="stylesheet" href="assets/css/hero.css">
         <link rel="stylesheet" href="assets/css/preloader.css">
+        <link rel="stylesheet" href="assets/css/programs.css">
         <!--=============== FAVICON ===============-->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
         <link rel="manifest" href="assets/favicon_io/site.webmanifest">
-
         <title>UPHSL-IC Virtual Campus Tour</title>
     </head>
     <body id="#Home">
@@ -30,28 +28,36 @@
         <header class="header">
             <div class="topnavbar-above">&nbsp;</div>
             <div class="topnav-container">
-                <a href="privacy-policy.html"><p id="privacy-policy">Privacy Policy</p></a>
+                <a href="privacy-policy.html">
+                    <p id="privacy-policy">Privacy Policy</p>
+                </a>
                 <i class="ri-mail-line" id="mailto"></i>
-                <a href="mailto:someone@example.com"><p id="mailtoadd">registrar@isabela.uphsl.edu.ph</p></a>
-                <a id="socialfb" href="https://www.facebook.com/UPHIsabela"><i class="ri-facebook-fill"></i></a>
-                <a id="socialinsta" href="https://www.instagram.com/uphs.isabela/"><i class="ri-instagram-line"></i></a>
-                <a id="socialcontacts" href="#"><i class="ri-phone-fill"></i></a>
+                <a href="mailto:someone@example.com">
+                    <p id="mailtoadd">registrar@isabela.uphsl.edu.ph</p>
+                </a>
+                <a id="socialfb" href="https://www.facebook.com/UPHIsabela">
+                    <i class="ri-facebook-fill"></i>
+                </a>
+                <a id="socialinsta" href="https://www.instagram.com/uphs.isabela/">
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <a id="socialcontacts" href="#">
+                    <i class="ri-phone-fill"></i>
+                </a>
             </div>
             <!-- <div class="navbar-above">&nbsp;</div> -->
-			<div class="navbar-above1">&nbsp;</div>
+            <div class="navbar-above1">&nbsp;</div>
             <nav class="nav container">
                 <div class="nav__data">
                     <a href="index.html" class="nav__logo">
                         <!-- <i class="ri-code-s-slash-line"></i> CodeBox -->
                         <img src="assets/images/isabela_logo.png" alt="School Logo" style="height: 50px;" />
                     </a>
-    
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="ri-menu-line nav__toggle-menu"></i>
                         <i class="ri-close-line nav__toggle-close"></i>
                     </div>
                 </div>
-
                 <!--=============== NAV MENU ===============-->
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
@@ -70,232 +76,16 @@
                         <li>
                             <a href="#About" class="nav__link">About</a>
                         </li>
-
                         <!--=============== DROPDOWN 1 ===============-->
-                        <!-- <li class="dropdown__item">                      
-                            <div class="nav__link dropdown__button">
-                                Discover <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                            </div>
-
-                            <div class="dropdown__container">
-                                <div class="dropdown__content">
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-book-mark-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Programs Offered</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Arts and Sciences</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Business Courses</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Computer Courses</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">International Hospitality Management</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Education Courses</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Allied Health Courses</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Tesda Accredited Vocational Courses</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Basic Education</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-heart-3-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Popular courses</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Development with Flutter</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Web development with React</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Backend development expert</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-book-mark-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Careers</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Web development</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Applications development</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">UI/UX design</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Informatic security</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-file-paper-2-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Certifications</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Course certificates</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Free certifications</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li> -->
-
+                        <!-- <li class="dropdown__item"><div class="nav__link dropdown__button">
+                                Discover <i class="ri-arrow-down-s-line dropdown__arrow"></i></div><div class="dropdown__container"><div class="dropdown__content"><div class="dropdown__group"><div class="dropdown__icon"><i class="ri-book-mark-line"></i></div><span class="dropdown__title">Programs Offered</span><ul class="dropdown__list"><li><a href="#" class="dropdown__link">Arts and Sciences</a></li><li><a href="#" class="dropdown__link">Business Courses</a></li><li><a href="#" class="dropdown__link">Computer Courses</a></li><li><a href="#" class="dropdown__link">International Hospitality Management</a></li><li><a href="#" class="dropdown__link">Education Courses</a></li><li><a href="#" class="dropdown__link">Allied Health Courses</a></li><li><a href="#" class="dropdown__link">Tesda Accredited Vocational Courses</a></li><li><a href="#" class="dropdown__link">Basic Education</a></li></ul></div><div class="dropdown__group"><div class="dropdown__icon"><i class="ri-heart-3-line"></i></div><span class="dropdown__title">Popular courses</span><ul class="dropdown__list"><li><a href="#" class="dropdown__link">Development with Flutter</a></li><li><a href="#" class="dropdown__link">Web development with React</a></li><li><a href="#" class="dropdown__link">Backend development expert</a></li></ul></div><div class="dropdown__group"><div class="dropdown__icon"><i class="ri-book-mark-line"></i></div><span class="dropdown__title">Careers</span><ul class="dropdown__list"><li><a href="#" class="dropdown__link">Web development</a></li><li><a href="#" class="dropdown__link">Applications development</a></li><li><a href="#" class="dropdown__link">UI/UX design</a></li><li><a href="#" class="dropdown__link">Informatic security</a></li></ul></div><div class="dropdown__group"><div class="dropdown__icon"><i class="ri-file-paper-2-line"></i></div><span class="dropdown__title">Certifications</span><ul class="dropdown__list"><li><a href="#" class="dropdown__link">Course certificates</a></li><li><a href="#" class="dropdown__link">Free certifications</a></li></ul></div></div></div></li> -->
                         <!--=============== DROPDOWN 2 ===============-->
-                        <!-- <li class="dropdown__item">
-                            <div class="nav__link dropdown__button">
-                                Resources <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                            </div>
-
-                            <div class="dropdown__container">
-                                <div class="dropdown__content">
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-code-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Web templates</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Free templates</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Premium templates</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-pen-nib-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Designs</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Web designs</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">App designs</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Component design</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-apps-2-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Others</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Recent blogs</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Tutorial videos</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Webinar</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li> -->
-
-                        <!-- <li>
-                            <a href="#" class="nav__link">Pricing</a>
-                        </li> -->
-
+                        <!-- <li class="dropdown__item"><div class="nav__link dropdown__button">
+                                Resources <i class="ri-arrow-down-s-line dropdown__arrow"></i></div><div class="dropdown__container"><div class="dropdown__content"><div class="dropdown__group"><div class="dropdown__icon"><i class="ri-code-line"></i></div><span class="dropdown__title">Web templates</span><ul class="dropdown__list"><li><a href="#" class="dropdown__link">Free templates</a></li><li><a href="#" class="dropdown__link">Premium templates</a></li></ul></div><div class="dropdown__group"><div class="dropdown__icon"><i class="ri-pen-nib-line"></i></div><span class="dropdown__title">Designs</span><ul class="dropdown__list"><li><a href="#" class="dropdown__link">Web designs</a></li><li><a href="#" class="dropdown__link">App designs</a></li><li><a href="#" class="dropdown__link">Component design</a></li></ul></div><div class="dropdown__group"><div class="dropdown__icon"><i class="ri-apps-2-line"></i></div><span class="dropdown__title">Others</span><ul class="dropdown__list"><li><a href="#" class="dropdown__link">Recent blogs</a></li><li><a href="#" class="dropdown__link">Tutorial videos</a></li><li><a href="#" class="dropdown__link">Webinar</a></li></ul></div></div></div></li> -->
+                        <!-- <li><a href="#" class="nav__link">Pricing</a></li> -->
                         <!--=============== DROPDOWN 3 ===============-->
-                        <!-- <li class="dropdown__item">                        
-                            <div class="nav__link dropdown__button">
-                                University <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                            </div>
-
-                            <div class="dropdown__container">
-                                <div class="dropdown__content">
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-community-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">About us</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">About us</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Support</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Contact us</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-shield-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Safety and quality</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Cookie settings</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Privacy Policy</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li> -->
+                        <!-- <li class="dropdown__item"><div class="nav__link dropdown__button">
+                                University <i class="ri-arrow-down-s-line dropdown__arrow"></i></div><div class="dropdown__container"><div class="dropdown__content"><div class="dropdown__group"><div class="dropdown__icon"><i class="ri-community-line"></i></div><span class="dropdown__title">About us</span><ul class="dropdown__list"><li><a href="#" class="dropdown__link">About us</a></li><li><a href="#" class="dropdown__link">Support</a></li><li><a href="#" class="dropdown__link">Contact us</a></li></ul></div><div class="dropdown__group"><div class="dropdown__icon"><i class="ri-shield-line"></i></div><span class="dropdown__title">Safety and quality</span><ul class="dropdown__list"><li><a href="#" class="dropdown__link">Cookie settings</a></li><li><a href="#" class="dropdown__link">Privacy Policy</a></li></ul></div></div></div></li> -->
                     </ul>
                 </div>
             </nav>
@@ -314,12 +104,100 @@
     </div>
     <div class="navbar-above2">&nbsp;</div>
     <!--=============== 360deg TOUR ===============-->
-    <!-- <div class="title">
-        <p style="font-weight: 900;">360° Virtual Campus Tour</p>
-    </div> -->
+    <!-- <div class="title"><p style="font-weight: 900;">360° Virtual Campus Tour</p></div> -->
+
+    <div id="Programs" class="programs-section">
+        <h1 class="programs-title">Programs Offered</h1>
+        <hr class="program-divider">
+        
+        <div class="program">
+            <div class="program-header">
+                <i class="icon-edit"></i> <span class="program-name">Arts and Sciences</span>
+            </div>
+            <div class="program-details">AB Mass Communication | AB Psychology | AB Political Science</div>
+        </div>
+        
+        <div class="program">
+            <div class="program-header">
+                <i class="icon-edit"></i> <span class="program-name">Business Courses</span>
+            </div>
+            <div class="program-details">BS Accountancy | Business Administration Major in Management</div>
+        </div>
     
-    <div id="#Programs" class="box">
-        <h1></h1>
-        <p></p>
+        <div class="program">
+            <div class="program-header">
+                <i class="icon-edit"></i> <span class="program-name">Computer Courses</span>
+            </div>
+            <div class="program-details">BS Information Technology | BS Computer Engineering</div>
+        </div>
+    
+        <div class="program">
+            <div class="program-header">
+                <i class="icon-edit"></i> <span class="program-name">International Hospitality Management</span>
+            </div>
+            <div class="program-details">BS Hotel & Restaurant Management | BS Tourism</div>
+        </div>
+    
+        <div class="program">
+            <div class="program-header">
+                <i class="icon-edit"></i> <span class="program-name">Education</span>
+            </div>
+            <div class="program-details">Bachelor of Elementary Education | Bachelor of Secondary Education Major in: English, Science & Mathematics</div>
+        </div>
+    
+        <div class="program">
+            <div class="program-header">
+                <i class="icon-edit"></i> <span class="program-name">Allied Health Courses</span>
+            </div>
+            <div class="program-details">BS Nursing | BS Midwifery | BS Pharmacy | BS Medical Technology</div>
+        </div>
+    
+        <div class="program">
+            <div class="program-header">
+                <i class="icon-settings"></i> <span class="program-name">Tesda Accredited Vocational Courses</span>
+            </div>
+            <div class="program-details">Certificate in Housekeeping Management (NCII) | Cookery (NCII) | Certificate in Bread & Pastry Production (NCII) | Certificate in Food & Beverages Service (NCII) | Certificate in Culinary Arts (NCII)</div>
+        </div>
+    
+        <div class="program">
+            <div class="program-header">
+                <i class="icon-settings"></i> <span class="program-name">Basic Education</span>
+            </div>
+            <div class="program-details">K1-Grade 10 | Senior High School: STEM, ABM, HUMMS, GAS, HE, ICT</div>
+        </div>
     </div>
+    
+    <div id="About" class="about">
+        <h1 class="about-title">About Us</h1>
+        <hr class="about-divider">
+        <p>The University of Perpetual Help System, having committed itself to service in the forefront of education and health care, came into being out of the unselfish effort and untiring commitment of its founder: Dr. Jose G. Tamayo and Dr. Josefina Laperal Tamayo. The desire to serve others was manifested at a very young age when Dr. Jose G. Tamayo, then a young boy dreaming of being a doctor. For him, it was the best way that he could serve his fellowmen. But when that dream became a reality, he realized that his best was not good enough to provide the services he rendered, so limited and only within the realm of his profession as a doctor. With an ardent desire to serve his fellowmen, the idea of reaching out to through the setting up of an educational institution, gave birth to the following: Perpetual Help College Manila. Opened in 1968 with Nursing as key a course offering. Most graduates are now in the USA who formed themselves into Perpetualites Association of America and serving as a direct linkage for Perpetualite students and alumni there.</p>
+        <p>Perpetual Help College Malasiqui is located in the heart of the Municipality of Malasiqui, Pangasinan; it was founded in 1970 to accelerate the development of health education in the rural areas particularly in the Province of Pangasinan.</p>
+        <p>University of Perpetual Help Rizal (formerly Perpetual Help College of Rizal). In 1975, the eldest son, Antonio, inspired by his parents, spearheaded the founding of another school in the City of Las Piñas.</p>
+        <p>The Molino Campus in Bacoor, Cavite and Calamba Campus in Laguna are extension programs of University of Perpetual Help Rizal, which started their operations in 1996 and 1997 respectively.</p>
+        <p>University of Perpetual Help System Laguna (formerly Perpetual Help College of Laguna) opened its door for academic excellence in 1976 with a total of 89 students in the first and second and 367 students in the tertiary level. The campus is located along the old national highway in Biñan which is very accessible.</p>
+        <p>University of Perpetual Help System – GMA Campus started its operation in 1997 UPH-Dr. Jose G. Tamayo Medical University formed in 1976, specializing in medical and health-related courses and also located in Biñan, Laguna.</p>
+        <p>University of Perpetual Help System Laguna-Isabela Campus is the youngest satellite of the university system. It aims to provide the northern part of the country an avenue to bring out the nurture the essence of perseverance through Perpetualite education.</p>
+    </div>
+    <div class="mission-vision">
+        <h2>Mission</h2>
+        <hr>
+        <p>The University of Perpetual Help System is dedicated to the development of the Filipino as a leader. It aims to graduate dynamic students who are physically, intellectually, socially, and spiritually committed to the achievement of the highest quality of life.</p>
+    
+        <p>As a system of service in health and education, the University of Perpetual Help System is dedicated to the formation of Christian service and research-oriented professional, leader and citizen with great social concern and with commitment to the delivery of quality education and health care.</p>
+    
+        <p>It shall produce Perpetualites who outstandingly value the virtues of reaching out and helping others as vital ingredients to nation building.</p>
+    
+        <h2>Vision</h2>
+        <hr>
+        <p>The University of Perpetual Help System, having committed itself to service in the forefront of education and health care, came into being out of the unselfish effort and untiring commitment of its founder: Dr. Jose G. Tamayo and Dr. Josefina Laperal Tamayo. The desire to serve others was manifested at a very young age when Dr. Jose G. Tamayo, then a young boy dreaming of being a doctor. For him, it was the best way that he could serve his fellowmen. But when that dream became a reality, he realized that his best was not good enough...</p>
+    </div>
+    
+    
+    <!--=============== FOOTER ===============-->
+    <footer>
+        <center>
+            <div class="text-center p-3" style="margin: 20px 0 0 0; text-decoration: none; background-color: rgba(0, 0, 0, 0.2)"> © 2024 Copyright: <a style="color: #656E81;" class="text-dark" href="https://360-uphsl-isabela.pages.dev/">UPHSL-IC</a>
+            </div>
+        </center>
+    </footer>
 </html>
