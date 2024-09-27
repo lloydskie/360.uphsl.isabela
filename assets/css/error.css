@@ -1,0 +1,29 @@
+/* Centering the error message */
+.error-container {
+    text-align: center;
+    padding: 50px;
+    margin-top: 20vh; /* Pushes down from the top of the viewport */
+}
+
+/* Styling the heading */
+.error-container h1 {
+    font-size: 48px;
+    color: #e74c3c; /* Red color for the error */
+}
+
+/* Styling the paragraph */
+.error-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Styling the link back to homepage */
+.error-container a {
+    text-decoration: none;
+    color: #3498db; /* Link color */
+    font-weight: bold;
+}
+
+.error-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
