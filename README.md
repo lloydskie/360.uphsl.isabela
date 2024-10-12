@@ -8,7 +8,7 @@ This website was created for the University of Perpetual Help System Laguna - Is
 
 # 360-uphsl-isabela.pages.dev
 
-[360 Virtual Tour](360-uphsl-isabela.pages.dev)
+[360 Virtual Tour](http://360-uphsl-isabela.pages.dev)
 
 A website dedicated to showcasing the University of Perpetual Help System Isabela Campus through a fully immersive 360 virtual tour.
 
