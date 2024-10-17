@@ -685,12 +685,6 @@ var APP_DATA = {
           "pitch": 0.03715244814861762,
           "rotation": 0,
           "target": "13-main-building-entrance"
-        },
-        {
-          "yaw": -2.921739923246136,
-          "pitch": 0.026717814627080116,
-          "rotation": 0,
-          "target": "61-main-building-exit"
         }
       ],
       "infoHotspots": []
