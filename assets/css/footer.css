@@ -69,11 +69,31 @@ footer {
   }
 }
 
+/* ========= Tablet ============ */
+@media (max-width: 768px) {
+  .footer-bottom {
+    padding-top: 3px;
+    padding-bottom: 14px;
+    padding-left: 6%;
+    font-size: 8px;
+  }
+  .footer-bottom p a{
+    font-size: 8px;
+  }
+  .footer-bottom p {
+    font-size: 8px;
+  }
+  .footer-menu {
+    padding-left: 35%;
+  }
+}
+
+/* ========= Mobile ============ */
 @media (max-width: 425px) {
   .footer-bottom {
     padding-top: 3px;
     padding-bottom: 14px;
-    padding-left: 35%;
+    padding-left: 6%;
   }
   .footer-bottom p a{
     font-size: 8px;
@@ -90,7 +110,7 @@ footer {
   .footer-bottom {
     padding-top: 3px;
     padding-bottom: 14px;
-    padding-left: 35%;
+    padding-left: 6%;
   }
   .footer-bottom p a{
     font-size: 8px;
@@ -107,7 +127,7 @@ footer {
   .footer-bottom {
     padding-top: 3px;
     padding-bottom: 14px;
-    padding-left: 35%;
+    padding-left: 6%;
   }
   .footer-bottom p a{
     font-size: 8px;
