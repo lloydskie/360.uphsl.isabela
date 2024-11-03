@@ -10,81 +10,25 @@ footer {
   width: 100vw;
   padding-top: 40px;
   color: #fff;
-}
-
-/* Footer content */
-.footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.footer-content h3 {
-  font-size: 2.1rem;
-  font-weight: 500;
-  text-transform: capitalize;
-  line-height: 3rem;
-}
-
-.footer-content p {
-  max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
-  font-size: 14px;
-  color: #cacdd2;
-}
-
-/* Socials */
-.footer-socials {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0 3rem;
-}
-
-.footer-socials li {
-  margin: 0 10px;
-}
-
-.footer-socials a {
-  text-decoration: none;
-  color: #fff;
-  border: 1.1px solid #fff;
-  padding: 5px;
-  border-radius: 50%;
-}
-
-.footer-socials a i {
-  font-size: 1.1rem;
-  width: 20px;
-  transition: color 0.4s;
-}
-
-.footer-socials a:hover i {
-  color: #0ff;
+  font-size: 10px;
 }
 
 /* Footer bottom */
 .footer-bottom {
   background: #000;
   width: 100vw;
-  padding: 20px 20px 40px;
+  padding: 20px 20px 50px;
   text-align: center;
 }
 
 .footer-bottom p {
-  float: left;
-  font-size: 14px;
+  float: unset;
   word-spacing: 2px;
   text-transform: capitalize;
 }
 
 .footer-bottom p a {
   color: #44bae8;
-  font-size: 16px;
   text-decoration: none;
 }
 
@@ -96,7 +40,7 @@ footer {
 
 /* Footer menu */
 .footer-menu {
-  float: right;
+  padding-left: 45%;
 }
 
 .footer-menu ul {
@@ -126,14 +70,6 @@ footer {
 }
 
 @media (max-width: 425px) {
-  .footer-content p {
-    line-height: 1;
-    font-size: 8px;
-  }
-  .footer-content h4 {
-    line-height: 1;
-    font-size: 8px;
-  }
   .footer-bottom {
     padding-top: 3px;
     padding-bottom: 14px;
@@ -151,14 +87,6 @@ footer {
 }
 
 @media (max-width: 375px) {
-  .footer-content p {
-    line-height: 1;
-    font-size: 8px;
-  }
-  .footer-content h4 {
-    line-height: 1;
-    font-size: 8px;
-  }
   .footer-bottom {
     padding-top: 3px;
     padding-bottom: 14px;
@@ -176,14 +104,6 @@ footer {
 }
 
 @media (max-width: 320px) {
-  .footer-content p {
-    line-height: 1;
-    font-size: 8px;
-  }
-  .footer-content h4 {
-    line-height: 1;
-    font-size: 8px;
-  }
   .footer-bottom {
     padding-top: 3px;
     padding-bottom: 14px;
