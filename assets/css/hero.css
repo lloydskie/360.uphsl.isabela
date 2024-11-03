@@ -27,11 +27,11 @@
         height: 415px;
     }
 }
-/* Media query for small screens (Laptop M) */
-@media (max-width: 1080px) {
+/* Media query for small screens (Nest Hub Max) */
+@media (max-width: 1280px) {
     #hero-img {
         margin: 0 auto;
-        height: 305px;
+        height: 370px;
     }
 }
 /* Media query for small screens (Laptop S) */
@@ -53,6 +53,13 @@
     #hero-img {
         margin: 0 auto;
         height: 262px;
+    }
+}
+/* Media query for small screens (Asus Zenbook Fold) */
+@media (max-width: 853px) {
+    #hero-img {
+        margin: 0 auto;
+        height: 245px;
     }
 }
 /* Media query for small screens (iPad Air) */
@@ -123,6 +130,13 @@
     #hero-img {
         margin: 0 auto;
         height: 104px;
+    }
+}
+/* Media query for small screens (Galaxy Z Fold 5) */
+@media (max-width: 344px) {
+    #hero-img {
+        margin: 0 auto;
+        height: 99px;
     }
 }
 /* Media query for small screens (Mobile S) */
