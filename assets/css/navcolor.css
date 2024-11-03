@@ -27,3 +27,9 @@
 		height: 5px;
 	}
 }
+
+@media (max-width: 320px) {
+    .navbar-above2 {
+		height: 10px;
+	}
+}

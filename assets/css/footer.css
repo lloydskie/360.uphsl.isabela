@@ -125,6 +125,56 @@ footer {
   }
 }
 
+@media (max-width: 425px) {
+  .footer-content p {
+    line-height: 1;
+    font-size: 8px;
+  }
+  .footer-content h4 {
+    line-height: 1;
+    font-size: 8px;
+  }
+  .footer-bottom {
+    padding-top: 3px;
+    padding-bottom: 14px;
+    padding-left: 35%;
+  }
+  .footer-bottom p a{
+    font-size: 8px;
+  }
+  .footer-bottom p {
+    font-size: 8px;
+  }
+  .footer-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer-content p {
+    line-height: 1;
+    font-size: 8px;
+  }
+  .footer-content h4 {
+    line-height: 1;
+    font-size: 8px;
+  }
+  .footer-bottom {
+    padding-top: 3px;
+    padding-bottom: 14px;
+    padding-left: 35%;
+  }
+  .footer-bottom p a{
+    font-size: 8px;
+  }
+  .footer-bottom p {
+    font-size: 8px;
+  }
+  .footer-menu {
+    display: none;
+  }
+}
+
 @media (max-width: 320px) {
   .footer-content p {
     line-height: 1;
