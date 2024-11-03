@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Device Detection Callout</title>
+  <style>
+    /* Background Overlay */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark overlay */
+      backdrop-filter: blur(5px); /* Adds blur to the background */
+      display: none; /* Hidden by default */
+      z-index: 999; /* Behind the callout */
+    }
+
+    .callout {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      max-width: 400px;
+      background-color: #f0f0f0;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Increased shadow for emphasis */
+      display: none; /* Hidden initially */
+      z-index: 1000; /* Above the overlay */
+      border-radius: 8px; /* Rounded corners */
+    }
+    
+    .callout-header {
+      padding: 20px;
+      background: #555;
+      font-size: 24px;
+      color: white;
+      text-align: center;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+    
+    .callout-container {
+      padding: 20px;
+      background-color: #ccc;
+      color: black;
+      text-align: center;
+    }
+    
+    .closebtn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    
+    .closebtn:hover {
+      color: lightgrey;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Overlay for background blur and darkening effect -->
+<div class="overlay" id="backgroundOverlay"></div>
+
+<div class="callout" id="deviceCallout">
+  <div class="callout-header">Alert</div>
+  <span class="closebtn" onclick="closeCallout()">×</span>
+  <div class="callout-container" id="calloutMessage">
+    <!-- Message will be injected by JavaScript -->
+  </div>
+</div>
+
+<script>
+  function detectDeviceType() {
+    const ua = navigator.userAgent;
+
+    if (/tablet|ipad|playbook|silk/i.test(ua)) {
+      return 'tablet';
+    } else if (
+      /Mobile|Android|iP(hone|od)|IEMobile|BlackBerry/i.test(ua)
+    ) {
+      return 'mobile';
+    }
+    return 'laptop';
+  }
+
+  function showDeviceCallout() {
+    const deviceType = detectDeviceType();
+    const calloutMessage = document.getElementById('calloutMessage');
+    const callout = document.getElementById('deviceCallout');
+    const overlay = document.getElementById('backgroundOverlay');
+
+    // Customize the message based on device type
+    let message = `You are using a ${deviceType}. `;
+    if (deviceType === 'mobile') {
+      message += "For a better experience, consider rotating your device to landscape mode.";
+    } else if (deviceType === 'tablet') {
+      message += "Enjoy our responsive layout optimized for tablets!";
+    } else {
+      message += "You're on a laptop or desktop. Explore in full-screen for the best experience.";
+    }
+
+    // Add 'Learn more' link
+    message += ` <a href="#" style="color: blue;">Learn more</a>`;
+
+    // Set the message, show the overlay and display the callout
+    calloutMessage.innerHTML = message;
+    overlay.style.display = 'block';
+    callout.style.display = 'block';
+  }
+
+  function closeCallout() {
+    document.getElementById('deviceCallout').style.display = 'none';
+    document.getElementById('backgroundOverlay').style.display = 'none';
+  }
+
+  // Show the callout when the page loads
+  window.onload = showDeviceCallout;
+</script>
+
+</body>
+</html>

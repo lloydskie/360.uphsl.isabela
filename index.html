@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="assets/css/preloader.css">
         <link rel="stylesheet" href="assets/css/programs.css">
         <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/alert.css">
         <!--=============== BOOTSTRAP ===============-->
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
         <!--=============== MDB5 ===============-->
@@ -107,6 +108,8 @@
     <br>
     <br>
     <br>
+    <br>
+    <!--=============== HERO ===============-->
     <div class="hero">
         <img id="hero-img" src="assets/images/demo/bannertemplate-isabela.jpg" alt="Isabela Campus">
     </div>
@@ -122,8 +125,11 @@
     <center>
         <footer>
             <div class="footer-bottom">
-                <p>We nurture students to become accomplished professionals who get employed not only in the Philippines but also abroad. We focus on the total development of our students, beginning with character building to mastery of skills, thus enable our graduates to get ahead in their careers.</p><br>
-                <p class="cpr">copyright &copy; <a href="index.html">UPHSL-IC</a></p><br>
+                <p>We nurture students to become accomplished professionals who get employed not only in the Philippines but also abroad. We focus on the total development of our students, beginning with character building to mastery of skills, thus enable our graduates to get ahead in their careers.</p>
+                <br>
+                <p class="cpr">copyright &copy; <a href="index.html">UPHSL-IC</a>
+                </p>
+                <br>
                 <div class="footer-menu">
                     <ul class="f-menu">
                         <li>
@@ -143,9 +149,56 @@
             </div>
         </footer>
     </center>
-    <!-- <footer>
-        <center>
-            <div class="text-center p-3" style="margin: 20px 0 0 0; text-decoration: none; background-color: rgba(0, 0, 0, 0.2)"> © 2024 Copyright: <a style="color: #656E81;" class="text-dark" href="https://360-uphsl-isabela.pages.dev/">UPHSL-IC</a></div>
-        </center>
-    </footer> -->
+    <!-- <footer><center><div class="text-center p-3" style="margin: 20px 0 0 0; text-decoration: none; background-color: rgba(0, 0, 0, 0.2)"> © 2024 Copyright: <a style="color: #656E81;" class="text-dark" href="https://360-uphsl-isabela.pages.dev/">UPHSL-IC</a></div></center></footer> -->
+    <!--=============== ALERT ===============-->
+    <!-- Overlay for background blur and darkening effect -->
+    <div class="overlay" id="backgroundOverlay"></div>
+    <div class="callout" id="deviceCallout">
+        <div class="callout-header">WELCOME 🚩</div>
+        <span class="closebtn" onclick="closeCallout()">✖</span>
+        <div class="callout-container" id="calloutMessage">
+            <!-- Message will be injected by JavaScript -->
+        </div>
+    </div>
+    <script>
+        function detectDeviceType() {
+            const ua = navigator.userAgent;
+            if (/tablet|ipad|playbook|silk/i.test(ua)) {
+                return 'tablet';
+            } else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry/i.test(ua)) {
+                return 'mobile';
+            }
+            return 'laptop or desktop';
+        }
+
+        function showDeviceCallout() {
+            const deviceType = detectDeviceType();
+            const calloutMessage = document.getElementById('calloutMessage');
+            const callout = document.getElementById('deviceCallout');
+            const overlay = document.getElementById('backgroundOverlay');
+            // Customize the message based on device type
+            let message = `You are using a ${deviceType}. `;
+            if (deviceType === 'mobile') {
+                message += "For a better experience, consider exploring the map in full-screen or rotating your device to landscape mode. For more info you may ";
+            } else if (deviceType === 'tablet') {
+                message += "Enjoy our responsive layout optimized for tablets! For more info you may ";
+            } else {
+                message += "Explore the map in full-screen for the best experience. For more info you may ";
+            }
+            // Add 'Learn more' link
+            message += ` 
+																									<a href="#" style="color: #FFF100; font-weight: 900;">contact us</a>.`;
+            // Set the message, show the overlay and display the callout
+            calloutMessage.innerHTML = message;
+            overlay.style.display = 'block';
+            callout.style.display = 'block';
+        }
+
+        function closeCallout() {
+            document.getElementById('deviceCallout').style.display = 'none';
+            document.getElementById('backgroundOverlay').style.display = 'none';
+        }
+        // Show the callout when the page loads
+        window.onload = showDeviceCallout;
+    </script>
 </html>
