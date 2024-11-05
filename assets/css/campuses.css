@@ -1,0 +1,71 @@
+/* Container to hold and style the grid */
+.card-container {
+    display: grid;
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  /* Card styling */
+  .card {
+    box-shadow: 0 4px 8px 0 #fff2008a;
+    text-align: center;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Social media icons styling */
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .card h1 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+  
+  .card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, .card a:hover {
+    opacity: 0.7;
+  }
+  
+  /* Responsive grid */
+  @media (min-width: 1024px) {
+    .card-container {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns on laptops */
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .card-container {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns on tablets */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+    }
+  }
+  
