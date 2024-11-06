@@ -24,42 +24,42 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 3.1239756704659634,
-        "pitch": 0.1708064682914312,
-        "fov": 1.3779530878697497
+        "yaw": 3.1103065618571364,
+        "pitch": 0.23028711995761952,
+        "fov": 1.5418892839542175
       },
       "linkHotspots": [
         {
-          "yaw": -3.114369600923599,
-          "pitch": 0.17451255725390524,
+          "yaw": -3.1136408893987024,
+          "pitch": 0.16879285283884116,
           "rotation": 0,
           "target": "4-driveway-1"
         },
         {
-          "yaw": 1.5330312403978095,
-          "pitch": 0.3322911032109097,
+          "yaw": 1.5571378905995221,
+          "pitch": 0.35371739847563965,
           "rotation": 0,
           "target": "1-sidewalk-1"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -2.7495940556985055,
-          "pitch": 0.06625776439499731,
-          "title": "University Parking Lot",
-          "text": "<div bis_skin_checked=\"1\">Spacious parking area with designated spots for students and faculty.</div>"
+          "yaw": -2.7153181175707815,
+          "pitch": 0.06308033447516692,
+          "title": "University Parking Lot<br>",
+          "text": "Spacious parking area with designated spots for students and faculty<br>"
         },
         {
-          "yaw": -1.0299796992557226,
-          "pitch": -0.014318706783985391,
-          "title": "University TODA",
-          "text": "<div bis_skin_checked=\"1\">Association for tricycle operators at university, supporting transportation, coordination, and safety.&nbsp;</div>"
+          "yaw": -1.2162712735938168,
+          "pitch": -0.10390314379491272,
+          "title": "University TODA Terminal<br>",
+          "text": "A designated area on campus where tricycles (Tricycle Operators and Drivers Associations) operate, pick up, and drop off passengers."
         },
         {
-          "yaw": 1.7217060794088823,
-          "pitch": 0.13971978821360231,
-          "title": "Open Field",
-          "text": "Outdoor space for sports and recreation, promoting fitness and community."
+          "yaw": 1.5315192568656428,
+          "pitch": 0.08080045770633681,
+          "title": "Open Field<br>",
+          "text": "Outdoor space for sport and recreation, promoting fitness and community<br>"
         }
       ]
     },
@@ -87,37 +87,44 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 3.112978425135987,
-        "pitch": 0.12279392380141729,
-        "fov": 1.3857604941926192
+        "yaw": -3.110986949873814,
+        "pitch": 0.10754475316475087,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -3.1227677470241026,
-          "pitch": 0.11143593304566579,
+          "yaw": -3.110986949873814,
+          "pitch": 0.10754475316475087,
           "rotation": 0,
           "target": "5-sidewalk-2"
         },
         {
-          "yaw": -2.6726103134345944,
-          "pitch": 0.13723891892727735,
+          "yaw": -2.726304461238529,
+          "pitch": 0.1318777948668579,
           "rotation": 0,
           "target": "4-driveway-1"
         },
         {
-          "yaw": 1.5359726143120707,
-          "pitch": 0.08278469285802714,
+          "yaw": 1.5735753980159313,
+          "pitch": 0.1814135843297109,
           "rotation": 0,
           "target": "2-field-1"
         },
         {
-          "yaw": -1.6630012932010185,
-          "pitch": 0.34562599623385815,
-          "rotation": 0,
+          "yaw": -1.8195363214414009,
+          "pitch": 0.34155476090078096,
+          "rotation": 12.566370614359176,
           "target": "0-university-entrance"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -1.6615819429444443,
+          "pitch": -0.0700824908621911,
+          "title": "University TODA Terminal<br>",
+          "text": "A designated area on campus where tricycles (Tricycle Operators and Drivers Associations) operate, pick up, and drop off passengers."
+        }
+      ]
     },
     {
       "id": "2-field-1",
@@ -143,30 +150,30 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -2.8695283247578534,
-        "pitch": 0.2875801165793437,
-        "fov": 1.3857604941926192
+        "yaw": -3.1284691628504167,
+        "pitch": 0.2187304358815254,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 3.0527183617497737,
-          "pitch": 0.08620613405555844,
-          "rotation": 0,
-          "target": "3-field-2"
-        },
-        {
-          "yaw": -1.638824205844255,
-          "pitch": 0.13965674636360603,
+          "yaw": -1.6539533008716258,
+          "pitch": 0.12985629177532232,
           "rotation": 0,
           "target": "1-sidewalk-1"
+        },
+        {
+          "yaw": -3.123816564521494,
+          "pitch": 0.05921458757878462,
+          "rotation": 0,
+          "target": "3-field-2"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.400530482722008,
-          "pitch": 0.0014399796191799652,
+          "yaw": 1.5918424842693852,
+          "pitch": 0.07022212790615256,
           "title": "Murals",
-          "text": "<div bis_skin_checked=\"1\">Large, vibrant wall art depicting stories, culture, and community values.</div>"
+          "text": "A wall painting at the university, showcasing art, history, or values."
         }
       ]
     },
@@ -194,30 +201,30 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -0.7118930179457514,
-        "pitch": 0.08373523042572195,
-        "fov": 1.3857604941926192
+        "yaw": -0.8438108832783193,
+        "pitch": 0.21732330271172273,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -1.3188614340766076,
-          "pitch": 0.16584855381901598,
+          "yaw": -1.325639220287023,
+          "pitch": 0.13976200141191342,
           "rotation": 0,
           "target": "5-sidewalk-2"
         },
         {
-          "yaw": -0.08501807226896219,
-          "pitch": 0.15500874338578186,
+          "yaw": -0.05628535653967681,
+          "pitch": 0.15948501873938525,
           "rotation": 0,
           "target": "2-field-1"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -3.0590151538358388,
-          "pitch": -0.01648410338807338,
-          "title": "Canopy Huts",
-          "text": "<div bis_skin_checked=\"1\">Small, open shelters with thatched, offering shaded seating areas.</div>"
+          "yaw": -2.9140213772886483,
+          "pitch": -0.01890412854820056,
+          "title": "Canopy Huts<br>",
+          "text": "Shaded structures on campus providing shelter and seating for students."
         }
       ]
     },
@@ -251,36 +258,42 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.5634266666215506,
-          "pitch": 0.16820697677841245,
-          "rotation": 0,
-          "target": "6-parking-driveway-1"
-        },
-        {
-          "yaw": -3.0140616667667874,
-          "pitch": 0.06418159592042905,
-          "rotation": 0,
-          "target": "5-sidewalk-2"
-        },
-        {
-          "yaw": 2.733824769514733,
-          "pitch": 0.06488229276000368,
+          "yaw": 2.779611137929491,
+          "pitch": 0.04523155056669026,
           "rotation": 0,
           "target": "0-university-entrance"
+        },
+        {
+          "yaw": 0.4990640182607944,
+          "pitch": 0.19536904803908506,
+          "rotation": 0,
+          "target": "6-parking-driveway-1"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.10497010501028825,
-          "pitch": 0.09644145199773568,
-          "title": "University Fountain",
-          "text": "<div bis_skin_checked=\"1\">Central roundabout featuring a decorative fountain, enhancing campus aesthetics and flow.</div>"
+          "yaw": 1.9648382182069115,
+          "pitch": 0.04749969300654122,
+          "title": "Parking Space<br>",
+          "text": "Designated area on campus for parking vehicles, ensuring student and staff convenience."
         },
         {
-          "yaw": 1.909574894724157,
-          "pitch": 0.06482453166607272,
-          "title": "University Parking Lot",
-          "text": "<div bis_skin_checked=\"1\">Spacious parking area with designated spots for students and faculty.</div>"
+          "yaw": -1.8078245815532803,
+          "pitch": -0.10706364602654261,
+          "title": "Canopy Huts<br>",
+          "text": "Shaded structures on campus providing shelter and seating for students."
+        },
+        {
+          "yaw": -2.2985374906983687,
+          "pitch": 0.013159410210448641,
+          "title": "Open Field<br>",
+          "text": "A vast, uncovered area of land, often used for recreation or events."
+        },
+        {
+          "yaw": -0.0006737579464743959,
+          "pitch": 0.08427980276763236,
+          "title": "Fountain",
+          "text": "A decorative fountain located at a campus roundabout, enhancing aesthetics and traffic flow."
         }
       ]
     },
@@ -308,37 +321,38 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
         "yaw": 0,
+        "pitch": 0,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.2028548285512315,
-          "pitch": 0.11087978297913814,
+          "yaw": 0.2374779864070966,
+          "pitch": 0.17097422039929633,
           "rotation": 0,
           "target": "4-driveway-1"
         },
         {
-          "yaw": -1.4987109173067257,
-          "pitch": 0.09945332080684288,
+          "yaw": -1.4425077895164033,
+          "pitch": 0.22261101853688636,
           "rotation": 0,
           "target": "3-field-2"
-        },
-        {
-          "yaw": 2.711854528162956,
-          "pitch": 0.14175793445167884,
-          "rotation": 0,
-          "target": "0-university-entrance"
-        },
-        {
-          "yaw": 3.117176921118415,
-          "pitch": 0.10900232570539004,
-          "rotation": 0,
-          "target": "1-sidewalk-1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 1.2167752648269623,
+          "pitch": 0.15643360778334703,
+          "title": "Parking Space<br>",
+          "text": "Designated area on campus for parking vehicles, ensuring student and staff convenience."
+        },
+        {
+          "yaw": 2.5215343421940384,
+          "pitch": -0.05269396200987586,
+          "title": "University TODA Terminal<br>",
+          "text": "A designated area on campus where tricycles (Tricycle Operators and Drivers Associations) operate, pick up, and drop off passengers."
+        }
+      ]
     },
     {
       "id": "6-parking-driveway-1",
@@ -364,20 +378,20 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 1.1902316994791722,
-        "pitch": 0.10829593579294361,
-        "fov": 1.3857604941926192
+        "yaw": 1.1355996754788134,
+        "pitch": 0.3397847156645639,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -3.08066837574839,
-          "pitch": 0.13059123218759439,
+          "yaw": -2.947486767640209,
+          "pitch": 0.09851081326130284,
           "rotation": 0,
           "target": "4-driveway-1"
         },
         {
-          "yaw": 1.4661868838811447,
-          "pitch": 0.17847304004505737,
+          "yaw": 1.1929996718473017,
+          "pitch": 0.2175607298347657,
           "rotation": 0,
           "target": "7-parking-driveway-2"
         }
@@ -408,22 +422,22 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
         "yaw": 0,
+        "pitch": 0,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 3.115689914175652,
-          "pitch": 0.16140078900429167,
-          "rotation": 0,
-          "target": "6-parking-driveway-1"
-        },
-        {
-          "yaw": -0.1756539795013108,
-          "pitch": 0.3024649901285166,
+          "yaw": -0.21215504769316595,
+          "pitch": 0.2710243531093255,
           "rotation": 0,
           "target": "8-parking-driveway-3"
+        },
+        {
+          "yaw": 3.1395462897367654,
+          "pitch": 0.20239918725747685,
+          "rotation": 0,
+          "target": "6-parking-driveway-1"
         }
       ],
       "infoHotspots": []
@@ -452,28 +466,28 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
         "yaw": 0,
+        "pitch": 0,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.06678117921484272,
-          "pitch": 0.2716518680488065,
+          "yaw": -0.1083820264348141,
+          "pitch": 0.22777026924079102,
           "rotation": 0,
           "target": "12-parking-driveway-4"
         },
         {
-          "yaw": -1.5175439163594628,
-          "pitch": 0.15514011305082676,
-          "rotation": 0,
-          "target": "11-driveway-3"
-        },
-        {
-          "yaw": 3.0843963397523346,
-          "pitch": 0.07619816908284527,
+          "yaw": 3.061892019671477,
+          "pitch": 0.08982804334857875,
           "rotation": 0,
           "target": "7-parking-driveway-2"
+        },
+        {
+          "yaw": -1.4855675242182258,
+          "pitch": 0.17778850179097816,
+          "rotation": 0,
+          "target": "11-driveway-3"
         }
       ],
       "infoHotspots": []
@@ -502,32 +516,32 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -3.1167298557563115,
-        "pitch": -0.21521162483935186,
-        "fov": 1.377264951642168
+        "yaw": -3.0301372763906738,
+        "pitch": -0.08020327778264402,
+        "fov": 1.5418892839542175
       },
       "linkHotspots": [
         {
-          "yaw": -1.8015337721617328,
-          "pitch": 0.1032758647572436,
-          "rotation": 0,
-          "target": "11-driveway-3"
-        },
-        {
-          "yaw": -0.010218262937517153,
-          "pitch": 0.11474612277568497,
-          "rotation": 0,
-          "target": "4-driveway-1"
-        },
-        {
-          "yaw": 3.0386683412859536,
-          "pitch": 0.037547519459888434,
+          "yaw": 3.0682277315679967,
+          "pitch": 0.014809267973138418,
           "rotation": 0,
           "target": "14-main-building-entrance"
         },
         {
-          "yaw": 2.349157953855885,
-          "pitch": 0.04837576599984672,
+          "yaw": -1.7964970819794779,
+          "pitch": 0.1045075296263196,
+          "rotation": 0,
+          "target": "11-driveway-3"
+        },
+        {
+          "yaw": -0.02853422429622654,
+          "pitch": 0.12220739712377338,
+          "rotation": 0,
+          "target": "4-driveway-1"
+        },
+        {
+          "yaw": 2.3745667307439096,
+          "pitch": 0.06582882715519744,
           "rotation": 0,
           "target": "10-university-court"
         }
@@ -558,15 +572,15 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
         "yaw": 0,
+        "pitch": 0,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -2.4027017335730356,
-          "pitch": 0.15848609024405746,
-          "rotation": 0,
+          "yaw": -2.448791557334488,
+          "pitch": 0.16592866406126205,
+          "rotation": 0.7853981633974483,
           "target": "9-driveway-2"
         }
       ],
@@ -588,20 +602,20 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": -0.4181527949963808,
-        "pitch": 0.10142783332631211,
-        "fov": 1.3779530878697497
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": -0.45048712131957735,
-          "pitch": 0.1304518662168448,
+          "yaw": -0.5067854260439777,
+          "pitch": 0.12362047878231053,
           "rotation": 0,
           "target": "9-driveway-2"
         },
         {
-          "yaw": -2.5411585983906537,
-          "pitch": 0.24964716431547807,
+          "yaw": -2.6070641859448163,
+          "pitch": 0.21392255326663978,
           "rotation": 0,
           "target": "8-parking-driveway-3"
         }
@@ -632,20 +646,20 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -0.15797382701960316,
-        "pitch": 0.2636257549178609,
-        "fov": 1.3779530878697497
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.15797382701960316,
-          "pitch": 0.2636257549178609,
+          "yaw": -0.2121549052885019,
+          "pitch": 0.17826296645694484,
           "rotation": 0,
           "target": "13-parking-lot"
         },
         {
-          "yaw": 3.0365934636042162,
-          "pitch": 0.06677426033571265,
+          "yaw": 3.019232688164905,
+          "pitch": 0.04115695357779714,
           "rotation": 0,
           "target": "8-parking-driveway-3"
         }
@@ -676,14 +690,14 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
         "yaw": 0,
+        "pitch": 0,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 3.0437316911591727,
-          "pitch": 0.08809656811399336,
+          "yaw": 3.05343469975352,
+          "pitch": 0.09057007092649627,
           "rotation": 0,
           "target": "12-parking-driveway-4"
         }
@@ -706,26 +720,20 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": 0.019782857752453253,
-        "pitch": -0.020358169626028655,
-        "fov": 1.3779530878697497
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": 3.007229999302444,
-          "pitch": 0.20992669608096826,
-          "rotation": 0,
-          "target": "9-driveway-2"
-        },
-        {
-          "yaw": 0.027686399055582456,
-          "pitch": 0.15082383884229245,
+          "yaw": 0.019982544447131545,
+          "pitch": 0.14549348908187376,
           "rotation": 0,
           "target": "27-main-front-hallway"
         },
         {
-          "yaw": -1.58134814714316,
-          "pitch": -0.09668737902890001,
+          "yaw": -1.580741296918701,
+          "pitch": -0.07234569666026758,
           "rotation": 0,
           "target": "15-main-hallway-2nd-floor"
         }
@@ -744,32 +752,40 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 320,
+      "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -2.981018285880097,
-        "pitch": 0.09511741636485915,
-        "fov": 1.1387763937736723
+        "yaw": -0.23360560757462778,
+        "pitch": 0.10220523253639158,
+        "fov": 1.5418892839542175
       },
       "linkHotspots": [
         {
-          "yaw": 0.20585390536678005,
-          "pitch": 0.2242466231666871,
-          "rotation": 0,
-          "target": "14-main-building-entrance"
-        },
-        {
-          "yaw": 2.8069528126991488,
-          "pitch": 0.3919141569586664,
+          "yaw": -0.21278805938569434,
+          "pitch": 0.4316254581063319,
           "rotation": 0,
           "target": "23-hallway-its-and-comlab"
         },
         {
-          "yaw": -1.725046530088262,
-          "pitch": 0.42137903625866713,
+          "yaw": -2.9638727241597405,
+          "pitch": 0.1976541552458304,
           "rotation": 0,
-          "target": "16-hallway-2nd-floor"
+          "target": "14-main-building-entrance"
+        },
+        {
+          "yaw": 1.1981192015870334,
+          "pitch": 0.40631978780326783,
+          "rotation": 1.5707963267948966,
+          "target": "15-main-hallway-2nd-floor"
         }
       ],
       "infoHotspots": []
@@ -798,27 +814,27 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 0.007249089565178224,
-        "pitch": 0.16646237216306048,
-        "fov": 1.1387763937736723
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.03855895277496124,
-          "pitch": 0.12796714750215799,
+          "yaw": -0.0355143098801598,
+          "pitch": 0.24361149259341275,
           "rotation": 0,
           "target": "18-hallway-gazette-1"
         },
         {
-          "yaw": 3.1016064422317573,
-          "pitch": 0.17545160278812233,
+          "yaw": -3.138952679166369,
+          "pitch": 0.27740194016996966,
           "rotation": 0,
           "target": "15-main-hallway-2nd-floor"
         },
         {
-          "yaw": 2.7304171747716914,
-          "pitch": 0.1259127331114982,
-          "rotation": 0,
+          "yaw": 2.763462246080717,
+          "pitch": 0.08974088520990975,
+          "rotation": 4.71238898038469,
           "target": "17-room-202"
         }
       ],
@@ -848,20 +864,14 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 3.051422454491492,
-        "pitch": 0.20165575906358413,
-        "fov": 1.3857604941926192
+        "yaw": 3.111142796005206,
+        "pitch": 0.016156762218463072,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -1.0638822545222943,
-          "pitch": 0.06603760232228595,
-          "rotation": 0,
-          "target": "16-hallway-2nd-floor"
-        },
-        {
-          "yaw": -2.3206273348440707,
-          "pitch": 0.07599179404380507,
+          "yaw": -1.0449241336386592,
+          "pitch": 0.04539486744379495,
           "rotation": 0,
           "target": "16-hallway-2nd-floor"
         }
@@ -884,20 +894,20 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": 1.8897100408256415,
-        "pitch": 0.18638505107273673,
+        "yaw": 1.8270354765307983,
+        "pitch": 0.28818662156017893,
         "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": 2.0446058665283084,
-          "pitch": 0.252807056681867,
+          "yaw": 2.0101272263307033,
+          "pitch": 0.2398854183883259,
           "rotation": 0,
           "target": "19-hallway-gazette-2"
         },
         {
-          "yaw": 0.18412087263291,
-          "pitch": 0.2548571226902592,
+          "yaw": 0.18879028618954408,
+          "pitch": 0.17498313359358164,
           "rotation": 0,
           "target": "16-hallway-2nd-floor"
         }
@@ -920,22 +930,22 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": 0.006376850736749873,
-        "pitch": 0.041823230561002234,
+        "yaw": -0.004919165917787183,
+        "pitch": 0.2495115820506264,
         "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": 1.6339819421485124,
-          "pitch": 0.25960327943955264,
-          "rotation": 0,
-          "target": "18-hallway-gazette-1"
-        },
-        {
-          "yaw": -0.009885152440265443,
-          "pitch": 0.204470453060134,
+          "yaw": -0.00943576945250335,
+          "pitch": 0.19183879761122036,
           "rotation": 0,
           "target": "20-hallway-physics-lab"
+        },
+        {
+          "yaw": 1.6906261058544638,
+          "pitch": 0.247126905420318,
+          "rotation": 0,
+          "target": "18-hallway-gazette-1"
         }
       ],
       "infoHotspots": []
@@ -956,28 +966,34 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": 0.19172298924148556,
-        "pitch": 0.37174805570418457,
+        "yaw": 0,
+        "pitch": 0,
         "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": 0.24050450886129937,
-          "pitch": 0.08258727824227385,
-          "rotation": 0,
+          "yaw": 0.24166716293016322,
+          "pitch": 0.05814768326948894,
+          "rotation": 1.5707963267948966,
           "target": "22-pharmacy-simulation-lab"
         },
         {
-          "yaw": -2.2115110243981544,
-          "pitch": 0.15184905427522644,
-          "rotation": 0,
+          "yaw": -2.232479748852036,
+          "pitch": 0.10034034606885278,
+          "rotation": 7.853981633974483,
           "target": "21-general-chemistry-lab"
         },
         {
-          "yaw": -3.051253026906654,
-          "pitch": 0.12396267235775049,
+          "yaw": -3.0093539861878327,
+          "pitch": 0.1460249583069757,
           "rotation": 0,
           "target": "19-hallway-gazette-2"
+        },
+        {
+          "yaw": 0.005518176907813199,
+          "pitch": 0.17249576760104723,
+          "rotation": 0,
+          "target": "37-stairway-2nd-floor-east-wing"
         }
       ],
       "infoHotspots": []
@@ -1012,14 +1028,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.5795944511294238,
-          "pitch": 0.12007325894254528,
-          "rotation": 0,
+          "yaw": 0.5658124951358676,
+          "pitch": 0.18724636614179602,
+          "rotation": 12.566370614359176,
           "target": "20-hallway-physics-lab"
         },
         {
-          "yaw": 2.358832934271468,
-          "pitch": 0.10961362538757058,
+          "yaw": 2.3621835217677427,
+          "pitch": 0.14492027853152756,
           "rotation": 0,
           "target": "20-hallway-physics-lab"
         }
@@ -1050,14 +1066,14 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -1.0333533146202107,
-        "pitch": 0.10798021436726302,
+        "yaw": -0.8616684750321078,
+        "pitch": 0.0017951958020514525,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 2.481592469893342,
-          "pitch": 0.1878540329717424,
+          "yaw": 2.4894887229452936,
+          "pitch": 0.1900782075653158,
           "rotation": 0,
           "target": "20-hallway-physics-lab"
         }
@@ -1080,22 +1096,22 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": 2.945782656504873,
-        "pitch": 0.22186903462429441,
+        "yaw": 2.649683529348195,
+        "pitch": 0.33552788635758546,
         "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": 2.7053333390919843,
-          "pitch": 0.3023015788907877,
-          "rotation": 0,
-          "target": "24-hallway-comlab"
+          "yaw": 2.2173393264835886,
+          "pitch": 0.0878224062914974,
+          "rotation": 4.71238898038469,
+          "target": "25-room-comlab-1"
         },
         {
-          "yaw": 2.1981255950339698,
-          "pitch": 0.12897275616415982,
+          "yaw": 2.711819055037937,
+          "pitch": 0.2698312823921718,
           "rotation": 0,
-          "target": "25-room-comlab-1"
+          "target": "24-hallway-comlab"
         }
       ],
       "infoHotspots": []
@@ -1116,28 +1132,16 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": 2.668019640690673,
-        "pitch": 0.04381067724711585,
+        "yaw": 2.659957694223147,
+        "pitch": 0.07649316580655352,
         "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": -0.1168642699188176,
-          "pitch": 0.11091801694966463,
-          "rotation": 1.5707963267948966,
-          "target": "25-room-comlab-1"
-        },
-        {
-          "yaw": -0.4411213288001665,
-          "pitch": 0.31420564813535634,
+          "yaw": 2.568481656171869,
+          "pitch": 0.13581388972846753,
           "rotation": 0,
-          "target": "23-hallway-its-and-comlab"
-        },
-        {
-          "yaw": 2.5545697820713977,
-          "pitch": 0.2069402269755276,
-          "rotation": 0,
-          "target": "62-hallway-nursing-arts-lab"
+          "target": "60-2nd-floor-hallway"
         }
       ],
       "infoHotspots": []
@@ -1166,28 +1170,28 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
         "yaw": 0,
+        "pitch": 0,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.14522127093129455,
-          "pitch": 0.0833835247415422,
+          "yaw": 0.1779640797466726,
+          "pitch": 0.12608691231871205,
           "rotation": 0,
           "target": "26-room-comlab-2"
         },
         {
-          "yaw": 0.8639357375299781,
-          "pitch": 0.10625624117399646,
-          "rotation": 7.853981633974483,
-          "target": "62-hallway-nursing-arts-lab"
-        },
-        {
-          "yaw": 2.9513741458718865,
-          "pitch": 0.26887494484466856,
+          "yaw": 3.0349013398648257,
+          "pitch": 0.23962687510913838,
           "rotation": 4.71238898038469,
           "target": "24-hallway-comlab"
+        },
+        {
+          "yaw": 0.8230126225335326,
+          "pitch": 0.09086022497939084,
+          "rotation": 1.5707963267948966,
+          "target": "60-2nd-floor-hallway"
         }
       ],
       "infoHotspots": []
@@ -1216,22 +1220,22 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": 2.003062128967123,
+        "pitch": 0.21403366723811956,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 1.3279789643386515,
-          "pitch": 0.050172835117356485,
+          "yaw": 1.3354054379253242,
+          "pitch": 0.08481517565196484,
           "rotation": 0,
-          "target": "62-hallway-nursing-arts-lab"
+          "target": "60-2nd-floor-hallway"
         },
         {
-          "yaw": 2.7466857546169727,
-          "pitch": 0.09339844471467806,
-          "rotation": 0,
-          "target": "25-room-comlab-1"
+          "yaw": 2.637842273335341,
+          "pitch": -0.008678270117890463,
+          "rotation": 4.71238898038469,
+          "target": "24-hallway-comlab"
         }
       ],
       "infoHotspots": []
@@ -1252,40 +1256,28 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": -0.13796246477783214,
-        "pitch": 0.3017724886434596,
-        "fov": 1.3779530878697497
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": -0.06086294998477726,
-          "pitch": 0.2866510777096707,
+          "yaw": -0.04659839093341489,
+          "pitch": 0.17562512284757759,
           "rotation": 0,
           "target": "28-hallway-maintenance-east-wing"
         },
         {
-          "yaw": -0.5741807256657978,
-          "pitch": 0.40526033280906404,
+          "yaw": 0.7441655433835148,
+          "pitch": 0.343897101682181,
+          "rotation": 1.5707963267948966,
+          "target": "65-main-building-exit"
+        },
+        {
+          "yaw": -0.5252630409319092,
+          "pitch": 0.38017445037043274,
           "rotation": 4.71238898038469,
           "target": "31-basement-stairway"
-        },
-        {
-          "yaw": 0.7608495789043666,
-          "pitch": 0.3294247411227218,
-          "rotation": 1.5707963267948966,
-          "target": "67-main-building-exit"
-        },
-        {
-          "yaw": 2.4866021603734394,
-          "pitch": 0.422688288581746,
-          "rotation": 10.995574287564278,
-          "target": "14-main-building-entrance"
-        },
-        {
-          "yaw": 3.078569961181401,
-          "pitch": 0.1985745064962181,
-          "rotation": 0,
-          "target": "40-hotel-entrance"
         }
       ],
       "infoHotspots": []
@@ -1306,22 +1298,22 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": 1.5993304484806288,
-        "pitch": 0.11627098097721777,
+        "yaw": 1.6716142356973913,
+        "pitch": 0.08605938993126117,
         "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": -0.052972768408780624,
-          "pitch": 0.306074332251141,
-          "rotation": 0,
-          "target": "27-main-front-hallway"
-        },
-        {
-          "yaw": 1.6329990845613995,
-          "pitch": 0.27873682559040347,
+          "yaw": 1.5660759543790377,
+          "pitch": 0.21299194770187846,
           "rotation": 0,
           "target": "29-hallway-1st-floor-east-wing"
+        },
+        {
+          "yaw": -0.04590562131987319,
+          "pitch": 0.20473626185150096,
+          "rotation": 0,
+          "target": "27-main-front-hallway"
         }
       ],
       "infoHotspots": []
@@ -1342,29 +1334,29 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": -2.864952302484536,
-        "pitch": 0.08515966649080653,
+        "yaw": 3.1398940938717024,
+        "pitch": 0.15079644737230424,
         "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": -3.0207546283062605,
-          "pitch": 0.21768642751793443,
+          "yaw": -3.04478410103083,
+          "pitch": 0.15007642069671512,
           "rotation": 0,
-          "target": "30-hallway-1st-floor-comfort-room-east-wing"
+          "target": "30-hallway-1st-floor-exit-east-wing"
         },
         {
-          "yaw": 0.09198238930597391,
-          "pitch": 0.24696820713685952,
-          "rotation": 0,
+          "yaw": 0.10519571349226275,
+          "pitch": 0.1227057647137837,
+          "rotation": 4.71238898038469,
           "target": "28-hallway-maintenance-east-wing"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "30-hallway-1st-floor-comfort-room-east-wing",
-      "name": "Hallway 1st Floor Comfort Room East Wing",
+      "id": "30-hallway-1st-floor-exit-east-wing",
+      "name": "Hallway 1st Floor Exit East Wing",
       "levels": [
         {
           "tileSize": 256,
@@ -1378,22 +1370,22 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": -2.995463340131286,
-        "pitch": 0.21931222404001893,
-        "fov": 1.3857604941926192
+        "yaw": -3.113441599540934,
+        "pitch": 0.08854355354435661,
+        "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": 0.03777012461594076,
-          "pitch": 0.26491076423082127,
+          "yaw": 0.03644454691975696,
+          "pitch": 0.18901940959815988,
           "rotation": 0,
           "target": "29-hallway-1st-floor-east-wing"
         },
         {
-          "yaw": 2.9438188594963624,
-          "pitch": 0.3527712193736061,
+          "yaw": 2.9658471324352558,
+          "pitch": 0.21260071697259164,
           "rotation": 0,
-          "target": "37-1st-floor-to-2nd-floor-stairs-east-wing"
+          "target": "35-1st-floor-to-2nd-floor-exit-stairs-east-wing"
         }
       ],
       "infoHotspots": []
@@ -1414,22 +1406,22 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.05848492810581263,
+        "pitch": 0.09222664999781038,
+        "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": -0.08417660311040365,
-          "pitch": 0.39795648980694054,
-          "rotation": 0,
-          "target": "32-basement-lobby"
-        },
-        {
-          "yaw": 1.5463236799654458,
-          "pitch": 0.25771352148118254,
+          "yaw": 1.546028600463373,
+          "pitch": 0.20845936659019415,
           "rotation": 0,
           "target": "27-main-front-hallway"
+        },
+        {
+          "yaw": -0.09964302971845385,
+          "pitch": 0.35857602737648264,
+          "rotation": 0,
+          "target": "32-basement-lobby"
         }
       ],
       "infoHotspots": []
@@ -1450,65 +1442,29 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": -1.9912533365848581,
-        "pitch": 0.1511192331896254,
-        "fov": 1.3779530878697497
+        "yaw": -2.040496793385069,
+        "pitch": 0.08802187265952277,
+        "fov": 1.5418892839542175
       },
       "linkHotspots": [
         {
-          "yaw": -2.504690055512585,
-          "pitch": 0.43229039820975323,
-          "rotation": 4.71238898038469,
-          "target": "33-basement-hallway-1"
-        },
-        {
-          "yaw": -0.026876769095151687,
-          "pitch": 0.40303067846454965,
+          "yaw": -0.011941809162589578,
+          "pitch": 0.3932802909719424,
           "rotation": 0,
           "target": "31-basement-stairway"
+        },
+        {
+          "yaw": -2.558927566637795,
+          "pitch": 0.474836604948667,
+          "rotation": 4.71238898038469,
+          "target": "33-basement-exit-to-1st-floor-stairs-east-wing"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "33-basement-hallway-1",
-      "name": "Basement Hallway 1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 320,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.056191490288473034,
-          "pitch": 0.34173676972890554,
-          "rotation": 0,
-          "target": "35-basement-to-1st-floor-stairs-east-wing"
-        },
-        {
-          "yaw": -2.672413258527806,
-          "pitch": 0.3820521363593343,
-          "rotation": 1.5707963267948966,
-          "target": "34-consultation-room"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "34-consultation-room",
-      "name": "Consultation Room",
+      "id": "33-basement-exit-to-1st-floor-stairs-east-wing",
+      "name": "Basement Exit to 1st Floor Stairs East Wing",
       "levels": [
         {
           "tileSize": 256,
@@ -1530,66 +1486,28 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.711391007877074,
+        "pitch": 0.09915838554019629,
+        "fov": 1.5418892839542175
       },
       "linkHotspots": [
         {
-          "yaw": -2.6641372091268867,
-          "pitch": 0.11271315528342996,
-          "rotation": 1.5707963267948966,
-          "target": "33-basement-hallway-1"
+          "yaw": 1.7004180935679267,
+          "pitch": -0.06802608848826353,
+          "rotation": 0,
+          "target": "34-basement-emergency-exit-east-wing"
+        },
+        {
+          "yaw": -3.0754378576570645,
+          "pitch": 0.3453083117618938,
+          "rotation": 0,
+          "target": "32-basement-lobby"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "35-basement-to-1st-floor-stairs-east-wing",
-      "name": "Basement to 1st Floor Stairs East Wing",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": 1.7742247332660215,
-        "pitch": 0.06092543092591285,
-        "fov": 1.1387763937736723
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.103262191116402,
-          "pitch": 0.1371722911465394,
-          "rotation": 0,
-          "target": "33-basement-hallway-1"
-        },
-        {
-          "yaw": 1.688049781317,
-          "pitch": -0.052726478055532766,
-          "rotation": 0,
-          "target": "36-basement-emergency-exit-east-wing"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "36-basement-emergency-exit-east-wing",
+      "id": "34-basement-emergency-exit-east-wing",
       "name": "Basement Emergency Exit East Wing",
       "levels": [
         {
@@ -1612,23 +1530,29 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 0.8367948306706197,
-        "pitch": 0.32264480785921634,
-        "fov": 1.3857604941926192
+        "yaw": 2.984095927551886,
+        "pitch": 0.23121182740780988,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 2.4832323448850193,
-          "pitch": 0.7838357308366177,
-          "rotation": 2.356194490192345,
-          "target": "35-basement-to-1st-floor-stairs-east-wing"
+          "yaw": 2.6037257069770092,
+          "pitch": 0.7817057056619134,
+          "rotation": 3.141592653589793,
+          "target": "33-basement-exit-to-1st-floor-stairs-east-wing"
+        },
+        {
+          "yaw": -3.039571427992449,
+          "pitch": -0.05556484397652817,
+          "rotation": 0,
+          "target": "35-1st-floor-to-2nd-floor-exit-stairs-east-wing"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "37-1st-floor-to-2nd-floor-stairs-east-wing",
-      "name": "1st Floor to 2nd Floor Stairs East Wing",
+      "id": "35-1st-floor-to-2nd-floor-exit-stairs-east-wing",
+      "name": "1st Floor to 2nd Floor Exit Stairs East Wing",
       "levels": [
         {
           "tileSize": 256,
@@ -1650,35 +1574,35 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 3.1161497077988463,
-        "pitch": 0.5121812003349646,
-        "fov": 1.3779530878697497
+        "yaw": 3.1257432869638944,
+        "pitch": 0.26695941700987547,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 2.4049496142934927,
-          "pitch": 0.8452295506721619,
-          "rotation": 2.356194490192345,
-          "target": "36-basement-emergency-exit-east-wing"
+          "yaw": -1.616782168002711,
+          "pitch": 0.6938599389820403,
+          "rotation": 0,
+          "target": "30-hallway-1st-floor-exit-east-wing"
         },
         {
-          "yaw": -1.686795517229715,
-          "pitch": 0.4315244384483812,
+          "yaw": -2.9562016159695546,
+          "pitch": -0.06278832383578425,
           "rotation": 0,
-          "target": "30-hallway-1st-floor-comfort-room-east-wing"
+          "target": "36-2nd-floor-exit-stairs-east-wing"
         },
         {
-          "yaw": -2.8920902458101168,
-          "pitch": 0.09927361097309273,
-          "rotation": 0,
-          "target": "38-stairway-1st-floor-to-2nd-floor-east-wing"
+          "yaw": 2.5516727370089587,
+          "pitch": 0.7900987623550133,
+          "rotation": 3.141592653589793,
+          "target": "34-basement-emergency-exit-east-wing"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "38-stairway-1st-floor-to-2nd-floor-east-wing",
-      "name": "Stairway 1st Floor to 2nd Floor East Wing",
+      "id": "36-2nd-floor-exit-stairs-east-wing",
+      "name": "2nd Floor Exit Stairs East Wing",
       "levels": [
         {
           "tileSize": 256,
@@ -1692,28 +1616,28 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": 1.0294254430638734,
-        "pitch": 0.26924812093097117,
-        "fov": 2.0943951023931953
+        "yaw": 1.2135620090965613,
+        "pitch": 0.30117756520944283,
+        "fov": 1.5418892839542175
       },
       "linkHotspots": [
         {
-          "yaw": -0.05748935669185151,
-          "pitch": 0.8760751978220416,
-          "rotation": 0,
-          "target": "37-1st-floor-to-2nd-floor-stairs-east-wing"
+          "yaw": 1.8473532916480195,
+          "pitch": -0.04616497029140021,
+          "rotation": 4.71238898038469,
+          "target": "37-stairway-2nd-floor-east-wing"
         },
         {
-          "yaw": 1.8517992696471675,
-          "pitch": -0.07438323868232466,
-          "rotation": 4.71238898038469,
-          "target": "39-stairway-2nd-floor-east-wing"
+          "yaw": -0.05994393016315058,
+          "pitch": 0.8814557905704064,
+          "rotation": 0,
+          "target": "35-1st-floor-to-2nd-floor-exit-stairs-east-wing"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "39-stairway-2nd-floor-east-wing",
+      "id": "37-stairway-2nd-floor-east-wing",
       "name": "Stairway 2nd Floor East Wing",
       "levels": [
         {
@@ -1728,28 +1652,28 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": 0.738646178302341,
-        "pitch": 0.2307639168462945,
-        "fov": 2.0943951023931953
+        "yaw": 0.6600577900914271,
+        "pitch": 0.20542788887781427,
+        "fov": 1.5418892839542175
       },
       "linkHotspots": [
         {
-          "yaw": -0.05796780593331974,
-          "pitch": 0.7897719844575466,
-          "rotation": 0,
-          "target": "38-stairway-1st-floor-to-2nd-floor-east-wing"
-        },
-        {
-          "yaw": 1.582549601693942,
-          "pitch": 0.43821052073920796,
+          "yaw": 1.597480984404811,
+          "pitch": 0.330234493241246,
           "rotation": 0,
           "target": "20-hallway-physics-lab"
+        },
+        {
+          "yaw": -0.03144488299659898,
+          "pitch": 0.7594908328076215,
+          "rotation": 0,
+          "target": "36-2nd-floor-exit-stairs-east-wing"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "40-hotel-entrance",
+      "id": "38-hotel-entrance",
       "name": "Hotel Entrance",
       "levels": [
         {
@@ -1772,20 +1696,20 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 3.0125442561030003,
-        "pitch": 0.10569880560423073,
+        "yaw": 2.9345437437151176,
+        "pitch": 0.1978326795414045,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 3.0125442561030003,
-          "pitch": 0.10569880560423073,
+          "yaw": 3.041410770370174,
+          "pitch": 0.13057305832195,
           "rotation": 0,
-          "target": "41-hotel-lobby"
+          "target": "39-hotel-lobby"
         },
         {
-          "yaw": -0.2266350750949524,
-          "pitch": 0.249576978195984,
+          "yaw": -0.21035302147011592,
+          "pitch": 0.22444085490330146,
           "rotation": 0,
           "target": "27-main-front-hallway"
         }
@@ -1793,7 +1717,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "41-hotel-lobby",
+      "id": "39-hotel-lobby",
       "name": "Hotel Lobby",
       "levels": [
         {
@@ -1816,41 +1740,41 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": 0.08816751793455957,
+        "pitch": 0.012481536420061445,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.20868273725819897,
-          "pitch": 0.13002295919422302,
+          "yaw": 0.2054571173259152,
+          "pitch": 0.10038238264800725,
           "rotation": 0,
-          "target": "42-hallway-cihm"
+          "target": "40-cihm-corridor"
         },
         {
-          "yaw": 0.2332431315466792,
-          "pitch": -0.3011572850682711,
+          "yaw": 0.22228113318826814,
+          "pitch": -0.29648988113588004,
           "rotation": 0,
-          "target": "46-mezzanine-entrance"
+          "target": "44-mezzanine-corridor-entrance"
         },
         {
-          "yaw": 2.613541762419578,
-          "pitch": 0.11617896894747481,
+          "yaw": 2.618618339987922,
+          "pitch": 0.1708506761818711,
           "rotation": 4.71238898038469,
-          "target": "49-hallway-tindalo-1"
+          "target": "47-hallway-tindalo"
         },
         {
-          "yaw": -2.5278010561719775,
-          "pitch": 0.17589140100052347,
+          "yaw": -2.5196392808493133,
+          "pitch": 0.19959230841163667,
           "rotation": 0,
-          "target": "40-hotel-entrance"
+          "target": "38-hotel-entrance"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "42-hallway-cihm",
-      "name": "Hallway CIHM",
+      "id": "40-cihm-corridor",
+      "name": "CIHM Corridor",
       "levels": [
         {
           "tileSize": 256,
@@ -1878,28 +1802,28 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.218452427823565,
-          "pitch": 0.37751324596625047,
+          "yaw": 2.2678128684767653,
+          "pitch": 0.3142731320651784,
           "rotation": 10.995574287564278,
-          "target": "43-room-b"
+          "target": "41-room-b"
         },
         {
-          "yaw": -3.1324887006787314,
-          "pitch": 0.13301977789559238,
+          "yaw": 3.1196248551486736,
+          "pitch": 0.1489823333858098,
           "rotation": 0,
-          "target": "41-hotel-lobby"
+          "target": "39-hotel-lobby"
         },
         {
-          "yaw": -1.6342929984983847,
-          "pitch": 0.6082076926788478,
+          "yaw": -1.6400231782031547,
+          "pitch": 0.6424303278038774,
           "rotation": 0,
-          "target": "44-hallway-room-h-and-medtech"
+          "target": "42-room-h-and-medtech-faculty-entrance"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "43-room-b",
+      "id": "41-room-b",
       "name": "Room B",
       "levels": [
         {
@@ -1928,17 +1852,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.4694684727159668,
-          "pitch": 0.19334434725391958,
+          "yaw": -1.460711535752992,
+          "pitch": 0.16910317019147136,
           "rotation": 0,
-          "target": "42-hallway-cihm"
+          "target": "40-cihm-corridor"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "44-hallway-room-h-and-medtech",
-      "name": "Hallway Room H and MedTech",
+      "id": "42-room-h-and-medtech-faculty-entrance",
+      "name": "Room H and MedTech Faculty Entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -1966,22 +1890,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 3.066091567159134,
-          "pitch": 0.6473774568937323,
+          "yaw": -1.4921223096741798,
+          "pitch": 0.39589635205955176,
           "rotation": 0,
-          "target": "42-hallway-cihm"
+          "target": "43-room-h"
         },
         {
-          "yaw": -1.4693062651905393,
-          "pitch": 0.4919445397653348,
+          "yaw": -3.0470349974296838,
+          "pitch": 0.6164666283110449,
           "rotation": 0,
-          "target": "45-room-h"
+          "target": "40-cihm-corridor"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "45-room-h",
+      "id": "43-room-h",
       "name": "Room H",
       "levels": [
         {
@@ -2004,23 +1928,23 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -3.1367519586581167,
-        "pitch": 0.22267417482541774,
-        "fov": 1.5707963267948966
+        "yaw": 3.1148515636319463,
+        "pitch": 0.19763925260450144,
+        "fov": 1.5418892839542175
       },
       "linkHotspots": [
         {
-          "yaw": 2.1898959707578713,
-          "pitch": 0.11274394814447142,
-          "rotation": 0,
-          "target": "44-hallway-room-h-and-medtech"
+          "yaw": 2.2378062242695194,
+          "pitch": 0.13317217484271104,
+          "rotation": 4.71238898038469,
+          "target": "42-room-h-and-medtech-faculty-entrance"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "46-mezzanine-entrance",
-      "name": "Mezzanine Entrance",
+      "id": "44-mezzanine-corridor-entrance",
+      "name": "Mezzanine Corridor Entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -2042,29 +1966,29 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -3.0479617890571795,
-        "pitch": 0.18855715468419376,
+        "yaw": -3.1218472928759464,
+        "pitch": 0.07573236186475008,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -1.5516066959428496,
-          "pitch": 0.6788903242238309,
+          "yaw": -3.0978047251319527,
+          "pitch": 0.2768187009275298,
           "rotation": 0,
-          "target": "41-hotel-lobby"
+          "target": "45-hr-and-nursing-faculty-corridor"
         },
         {
-          "yaw": -3.1268610315431964,
-          "pitch": 0.28602599790906247,
+          "yaw": -1.5809584913853794,
+          "pitch": 0.6782330166351258,
           "rotation": 0,
-          "target": "47-hallway-bapa"
+          "target": "39-hotel-lobby"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "47-hallway-bapa",
-      "name": "Hallway BAPA",
+      "id": "45-hr-and-nursing-faculty-corridor",
+      "name": "HR and Nursing Faculty Corridor",
       "levels": [
         {
           "tileSize": 256,
@@ -2086,23 +2010,29 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 3.13096389070078,
-        "pitch": 0.18453813409880127,
+        "yaw": 3.122158295481185,
+        "pitch": 0.1653995284782006,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 3.0730963249672607,
-          "pitch": 0.19504409060850847,
+          "yaw": 3.070443690647908,
+          "pitch": 0.16296464364234353,
           "rotation": 0,
-          "target": "48-hallway-admin"
+          "target": "46-accreditaton-and-bapa-corridor"
+        },
+        {
+          "yaw": -0.0344841771878599,
+          "pitch": 0.3871529628602506,
+          "rotation": 0,
+          "target": "44-mezzanine-corridor-entrance"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "48-hallway-admin",
-      "name": "Hallway Admin",
+      "id": "46-accreditaton-and-bapa-corridor",
+      "name": "Accreditaton and BAPA Corridor",
       "levels": [
         {
           "tileSize": 256,
@@ -2130,17 +2060,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.02435242551226935,
-          "pitch": 0.23629615686233763,
+          "yaw": -0.031078098754319328,
+          "pitch": 0.20142551434807743,
           "rotation": 0,
-          "target": "48-hallway-admin"
+          "target": "45-hr-and-nursing-faculty-corridor"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "49-hallway-tindalo-1",
-      "name": "Hallway Tindalo 1",
+      "id": "47-hallway-tindalo",
+      "name": "Hallway Tindalo",
       "levels": [
         {
           "tileSize": 256,
@@ -2162,40 +2092,34 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 3.0123960899303235,
-        "pitch": -0.026086542516583933,
+        "yaw": -3.123479123204284,
+        "pitch": 0.06700289416555094,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 2.4532422545318964,
-          "pitch": 0.3585378497795233,
+          "yaw": 2.504257987048071,
+          "pitch": 0.40005002328901185,
           "rotation": 4.71238898038469,
-          "target": "50-brick-ground"
+          "target": "48-brick-ground"
         },
         {
-          "yaw": -1.7109814552753058,
-          "pitch": 0.39967027944380007,
+          "yaw": 3.1092152847868277,
+          "pitch": 0.1511913468466446,
           "rotation": 0,
-          "target": "51-hallway-tindalo-2"
+          "target": "51-tindalo-hall-entrance"
         },
         {
-          "yaw": -0.09048274793648936,
-          "pitch": 0.2505672251770079,
+          "yaw": -1.7174748775523145,
+          "pitch": 0.42762793489417206,
           "rotation": 0,
-          "target": "41-hotel-lobby"
-        },
-        {
-          "yaw": 3.1139180786091014,
-          "pitch": 0.1602712432190394,
-          "rotation": 0,
-          "target": "53-tindalo-hall-entrance"
+          "target": "49-tindalo-corridor"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "50-brick-ground",
+      "id": "48-brick-ground",
       "name": "Brick ground",
       "levels": [
         {
@@ -2224,17 +2148,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.6840207816844135,
-          "pitch": -0.004075731747935407,
+          "yaw": 2.6593871995811984,
+          "pitch": 0.024403102140031052,
           "rotation": 5.497787143782138,
-          "target": "49-hallway-tindalo-1"
+          "target": "47-hallway-tindalo"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "51-hallway-tindalo-2",
-      "name": "Hallway Tindalo 2",
+      "id": "49-tindalo-corridor",
+      "name": "Tindalo Corridor",
       "levels": [
         {
           "tileSize": 256,
@@ -2256,28 +2180,28 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": 1.4720917572394434,
+        "pitch": 0.15816802156384924,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.24609814679068975,
-          "pitch": 0.3064555606982484,
+          "yaw": -0.23951578325836387,
+          "pitch": 0.30282523481491275,
           "rotation": 0,
-          "target": "52-room-106"
+          "target": "50-room-106"
         },
         {
-          "yaw": -1.6267739748673815,
-          "pitch": 0.34337619297755495,
+          "yaw": -1.731691977893398,
+          "pitch": 0.4166581837992105,
           "rotation": 0,
-          "target": "49-hallway-tindalo-1"
+          "target": "52-tindalo-hall"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "52-room-106",
+      "id": "50-room-106",
       "name": "Room 106",
       "levels": [
         {
@@ -2306,22 +2230,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.432296665926348,
-          "pitch": 0.12763960896424997,
-          "rotation": 10.995574287564278,
-          "target": "51-hallway-tindalo-2"
-        },
-        {
-          "yaw": 2.3218458229421284,
-          "pitch": 0.08955984354592417,
-          "rotation": 7.853981633974483,
-          "target": "51-hallway-tindalo-2"
+          "yaw": 2.324166479898497,
+          "pitch": 0.09408747612268442,
+          "rotation": 1.5707963267948966,
+          "target": "49-tindalo-corridor"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "53-tindalo-hall-entrance",
+      "id": "51-tindalo-hall-entrance",
       "name": "Tindalo Hall Entrance",
       "levels": [
         {
@@ -2350,40 +2268,40 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.48770758622728927,
-          "pitch": 0.1611660532409278,
-          "rotation": 1.5707963267948966,
-          "target": "54-tindalo-hall"
+          "yaw": 0.4490358394391656,
+          "pitch": 0.06591891928243143,
+          "rotation": 7.853981633974483,
+          "target": "52-tindalo-hall"
         },
         {
-          "yaw": -2.7168745963828815,
-          "pitch": 0.17589765913502298,
-          "rotation": 1.5707963267948966,
-          "target": "50-brick-ground"
-        },
-        {
-          "yaw": 3.104471825174663,
-          "pitch": 0.1094305948113039,
-          "rotation": 0,
-          "target": "49-hallway-tindalo-1"
-        },
-        {
-          "yaw": -0.5334675390636736,
-          "pitch": 0.16301017140710172,
+          "yaw": -0.5318874265103535,
+          "pitch": 0.15005427590731557,
           "rotation": 5.497787143782138,
-          "target": "60-stairway-2nd-floor"
+          "target": "58-stairway-2nd-floor"
         },
         {
-          "yaw": -1.05910221219402,
-          "pitch": 0.2619182579229662,
+          "yaw": -1.044886954517116,
+          "pitch": 0.28179071245884835,
           "rotation": 3.141592653589793,
-          "target": "55-preschool-basement-entrance"
+          "target": "53-preschool-basement-entrance"
+        },
+        {
+          "yaw": -2.696752551107032,
+          "pitch": 0.2070200583545745,
+          "rotation": 7.853981633974483,
+          "target": "48-brick-ground"
+        },
+        {
+          "yaw": 3.1223452627976087,
+          "pitch": 0.13232896252023174,
+          "rotation": 0,
+          "target": "47-hallway-tindalo"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "54-tindalo-hall",
+      "id": "52-tindalo-hall",
       "name": "Tindalo Hall",
       "levels": [
         {
@@ -2412,16 +2330,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.208907184984037,
-          "pitch": 0.041649083918519736,
+          "yaw": 2.1807689783824635,
+          "pitch": 0.020602263484690297,
           "rotation": 7.853981633974483,
-          "target": "53-tindalo-hall-entrance"
+          "target": "51-tindalo-hall-entrance"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "55-preschool-basement-entrance",
+      "id": "53-preschool-basement-entrance",
       "name": "Preschool Basement Entrance",
       "levels": [
         {
@@ -2444,28 +2362,28 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 0.9245412671488964,
-        "pitch": 0.08699856917580817,
-        "fov": 1.5707963267948966
+        "yaw": 0.9506584197297698,
+        "pitch": 0.015062680010633045,
+        "fov": 1.5418892839542175
       },
       "linkHotspots": [
         {
-          "yaw": 0.8246650128276833,
-          "pitch": 0.3547099326994818,
+          "yaw": 0.7977656094577554,
+          "pitch": 0.4097042951240333,
           "rotation": 0,
-          "target": "56-preschool-basement-hallway"
+          "target": "54-preschool-basement-hallway"
         },
         {
-          "yaw": -2.2368076514162833,
-          "pitch": -0.13500350888198653,
+          "yaw": -2.2045246760561668,
+          "pitch": -0.16456244747000603,
           "rotation": 0,
-          "target": "53-tindalo-hall-entrance"
+          "target": "51-tindalo-hall-entrance"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "56-preschool-basement-hallway",
+      "id": "54-preschool-basement-hallway",
       "name": "Preschool Basement Hallway",
       "levels": [
         {
@@ -2488,34 +2406,34 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": 0.2419294556520324,
+        "pitch": 0.03194839986701936,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.23636370212570057,
-          "pitch": 0.11265873094823675,
+          "yaw": 0.20185477457893697,
+          "pitch": 0.11383497125365061,
           "rotation": 4.71238898038469,
-          "target": "58-preschool-basement-exit"
+          "target": "56-preschool-basement-exit"
         },
         {
-          "yaw": -2.379284471070406,
-          "pitch": 0.03559760558075986,
-          "rotation": 7.853981633974483,
-          "target": "57-preschool-room"
-        },
-        {
-          "yaw": -2.9653298404126502,
-          "pitch": 0.07686889987194334,
+          "yaw": -3.0234777568842954,
+          "pitch": 0.11839409233799891,
           "rotation": 0,
-          "target": "55-preschool-basement-entrance"
+          "target": "53-preschool-basement-entrance"
+        },
+        {
+          "yaw": -2.6570674100673646,
+          "pitch": 0.023312128621654438,
+          "rotation": 1.5707963267948966,
+          "target": "55-preschool-room"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "57-preschool-room",
+      "id": "55-preschool-room",
       "name": "Preschool Room",
       "levels": [
         {
@@ -2538,22 +2456,22 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -0.5760404461335611,
-        "pitch": 0.08695514172193697,
+        "yaw": -0.5852098651759494,
+        "pitch": 0.15892280959488758,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 2.2364802153236987,
-          "pitch": 0.041307393778222234,
+          "yaw": 2.2392911053004134,
+          "pitch": 0.02581331791899899,
           "rotation": 0,
-          "target": "58-preschool-basement-exit"
+          "target": "53-preschool-basement-entrance"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "58-preschool-basement-exit",
+      "id": "56-preschool-basement-exit",
       "name": "Preschool Basement Exit",
       "levels": [
         {
@@ -2576,28 +2494,28 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -0.343396760234981,
-        "pitch": 0.15959612934508272,
+        "yaw": 0,
+        "pitch": 0,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -3.0149668289471734,
-          "pitch": -0.0238850353858453,
-          "rotation": 7.853981633974483,
-          "target": "59-room-gr1-b7"
+          "yaw": -3.0035731042833334,
+          "pitch": 0.04809873151253541,
+          "rotation": 1.5707963267948966,
+          "target": "57-room-gr1-b7"
         },
         {
-          "yaw": 2.8462952349603317,
-          "pitch": 0.08529948762808459,
-          "rotation": 7.853981633974483,
-          "target": "56-preschool-basement-hallway"
+          "yaw": 2.7867838314243114,
+          "pitch": 0.13823647824949958,
+          "rotation": 1.5707963267948966,
+          "target": "54-preschool-basement-hallway"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "59-room-gr1-b7",
+      "id": "57-room-gr1-b7",
       "name": "Room GR1 B7",
       "levels": [
         {
@@ -2626,16 +2544,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.6186497923232137,
-          "pitch": 0.000407060795774683,
+          "yaw": 2.6049251734966106,
+          "pitch": 0.0031200842868539524,
           "rotation": 0,
-          "target": "58-preschool-basement-exit"
+          "target": "56-preschool-basement-exit"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "60-stairway-2nd-floor",
+      "id": "58-stairway-2nd-floor",
       "name": "Stairway 2nd Floor",
       "levels": [
         {
@@ -2658,29 +2576,29 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 1.5305234442558344,
-        "pitch": 0.025881942183112017,
-        "fov": 1.5707963267948966
+        "yaw": 1.491167919683086,
+        "pitch": 0.10559104810977793,
+        "fov": 1.5418892839542175
       },
       "linkHotspots": [
         {
-          "yaw": 1.922454885650156,
-          "pitch": -0.05344355672406209,
+          "yaw": 1.945837235264758,
+          "pitch": -0.024135566774850403,
           "rotation": 0,
-          "target": "61-nursing-arts-laboratory-1"
+          "target": "59-nursing-arts-laboratory-and-entrance-hall"
         },
         {
-          "yaw": 1.0676879845653744,
-          "pitch": 0.7056079584882262,
+          "yaw": 1.0378713747643147,
+          "pitch": 0.6910274328534278,
           "rotation": 13.351768777756625,
-          "target": "53-tindalo-hall-entrance"
+          "target": "51-tindalo-hall-entrance"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "61-nursing-arts-laboratory-1",
-      "name": "Nursing Arts Laboratory 1",
+      "id": "59-nursing-arts-laboratory-and-entrance-hall",
+      "name": "Nursing Arts Laboratory and Entrance Hall",
       "levels": [
         {
           "tileSize": 256,
@@ -2708,23 +2626,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.9901487151952493,
-          "pitch": 0.7501125498916643,
+          "yaw": -0.21427603267198592,
+          "pitch": 0.2157387252921552,
           "rotation": 0,
-          "target": "60-stairway-2nd-floor"
+          "target": "60-2nd-floor-hallway"
         },
         {
-          "yaw": -0.20026427888361376,
-          "pitch": 0.22025078728129444,
+          "yaw": 2.9957627286894475,
+          "pitch": 0.7800550376720601,
           "rotation": 0,
-          "target": "62-hallway-nursing-arts-lab"
+          "target": "58-stairway-2nd-floor"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "62-hallway-nursing-arts-lab",
-      "name": "Hallway Nursing Arts Lab",
+      "id": "60-2nd-floor-hallway",
+      "name": "2nd Floor Hallway",
       "levels": [
         {
           "tileSize": 256,
@@ -2738,35 +2656,35 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": -1.4826027453535158,
-        "pitch": 0.30416663800106747,
-        "fov": 2.0943951023931953
+        "yaw": -3.0211431420217263,
+        "pitch": 0.06159103368329255,
+        "fov": 1.5418892839542175
       },
       "linkHotspots": [
         {
-          "yaw": 1.4628771379678343,
-          "pitch": 0.22607794188115804,
+          "yaw": -2.996424477785105,
+          "pitch": 0.22439256829958154,
           "rotation": 0,
-          "target": "61-nursing-arts-laboratory-1"
+          "target": "61-library-entrance"
         },
         {
-          "yaw": -2.9948340466659467,
-          "pitch": 0.21881421462169115,
+          "yaw": 1.4768639223509457,
+          "pitch": 0.18303465952896047,
           "rotation": 0,
-          "target": "63-library-hallway"
+          "target": "64-nursing-arts-laboratory-and-maintenance-hall"
         },
         {
-          "yaw": 0.10989093992475318,
-          "pitch": 0.2659801898217502,
-          "rotation": 0,
+          "yaw": 0.09617026178869281,
+          "pitch": 0.23517144159746017,
+          "rotation": 3.141592653589793,
           "target": "24-hallway-comlab"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "63-library-hallway",
-      "name": "Library Hallway",
+      "id": "61-library-entrance",
+      "name": "Library Entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -2780,35 +2698,35 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": -2.522751820303043,
-        "pitch": -0.0010056460834739767,
+        "yaw": -2.5426575555779714,
+        "pitch": 0.14199288829785317,
         "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": -3.1054611094824764,
-          "pitch": 0.1567390625992715,
+          "yaw": -3.1022495741929017,
+          "pitch": 0.14708508471499293,
           "rotation": 0,
-          "target": "66-nursing-arts-laboratory-2"
+          "target": "64-nursing-arts-laboratory-and-maintenance-hall"
         },
         {
-          "yaw": 0.08538523956070776,
-          "pitch": 0.2900101882777264,
-          "rotation": 0,
-          "target": "62-hallway-nursing-arts-lab"
+          "yaw": 0.1958220355136806,
+          "pitch": 0.33019196245514415,
+          "rotation": 3.141592653589793,
+          "target": "60-2nd-floor-hallway"
         },
         {
-          "yaw": -0.9507585857188161,
-          "pitch": 0.6546761591860903,
+          "yaw": -0.8713657762802534,
+          "pitch": 0.5780859243050873,
           "rotation": 7.0685834705770345,
-          "target": "64-hallway-elab-and-ssc"
+          "target": "62-elab-and-ssc-hallway"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "64-hallway-elab-and-ssc",
-      "name": "Hallway ELab and SSC",
+      "id": "62-elab-and-ssc-hallway",
+      "name": "ELab and SSC Hallway",
       "levels": [
         {
           "tileSize": 256,
@@ -2822,34 +2740,34 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": -3.0208192432631567,
-        "pitch": 0.12083544138547175,
+        "yaw": -3.073432279507621,
+        "pitch": 0.011101894942898483,
         "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": -0.059813522291445764,
-          "pitch": 0.21355574829047086,
-          "rotation": 0,
-          "target": "63-library-hallway"
-        },
-        {
-          "yaw": 0.38470616771987665,
-          "pitch": 0.0794193748758385,
-          "rotation": 1.5707963267948966,
-          "target": "65-engineering-lab"
-        },
-        {
-          "yaw": -3.128682432658554,
-          "pitch": 0.17162815477179727,
+          "yaw": 3.1364939824086937,
+          "pitch": 0.14099990977718235,
           "rotation": 0,
           "target": "15-main-hallway-2nd-floor"
+        },
+        {
+          "yaw": -0.03366347176496021,
+          "pitch": 0.14033529409753775,
+          "rotation": 9.42477796076938,
+          "target": "61-library-entrance"
+        },
+        {
+          "yaw": 0.41531696505562543,
+          "pitch": 0.12543741579433032,
+          "rotation": 1.5707963267948966,
+          "target": "63-engineering-lab"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "65-engineering-lab",
+      "id": "63-engineering-lab",
       "name": "Engineering Lab",
       "levels": [
         {
@@ -2872,23 +2790,23 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
         "yaw": 0,
+        "pitch": 0,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 1.5743613045230038,
-          "pitch": 0.14114613488068528,
+          "yaw": 1.5979705111539921,
+          "pitch": 0.1243631951792139,
           "rotation": 1.5707963267948966,
-          "target": "64-hallway-elab-and-ssc"
+          "target": "62-elab-and-ssc-hallway"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "66-nursing-arts-laboratory-2",
-      "name": "Nursing Arts Laboratory 2",
+      "id": "64-nursing-arts-laboratory-and-maintenance-hall",
+      "name": "Nursing Arts Laboratory and Maintenance Hall",
       "levels": [
         {
           "tileSize": 256,
@@ -2908,16 +2826,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.546259905823188,
-          "pitch": 0.3184949205630261,
+          "yaw": -2.5750281186670136,
+          "pitch": 0.3266343883373306,
           "rotation": 0,
-          "target": "63-library-hallway"
+          "target": "61-library-entrance"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "67-main-building-exit",
+      "id": "65-main-building-exit",
       "name": "Main Building Exit",
       "levels": [
         {
@@ -2932,22 +2850,16 @@ var APP_DATA = {
       ],
       "faceSize": 320,
       "initialViewParameters": {
-        "yaw": -3.1045218202260028,
-        "pitch": 0.17494086290135158,
+        "yaw": -3.1067384873531694,
+        "pitch": 0.18932385106379357,
         "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": -3.089890670846694,
-          "pitch": 0.31002042432454147,
+          "yaw": -3.1136417081092045,
+          "pitch": 0.2801103607425297,
           "rotation": 0,
           "target": "9-driveway-2"
-        },
-        {
-          "yaw": -0.06921224308649165,
-          "pitch": 0.1851994287778833,
-          "rotation": 0,
-          "target": "27-main-front-hallway"
         }
       ],
       "infoHotspots": []
