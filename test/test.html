@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,17 +38,23 @@
 
         /* Highlighted polygon style */
         polygon.active {
-            fill: rgba(255, 255, 0, 0.6); /* Bright yellow */
+            fill: rgba(255, 255, 0, 0.6);
+            /* Bright yellow */
             stroke: rgba(255, 255, 0, 1);
         }
     </style>
 </head>
+
 <body>
     <img src="/assets/images/qwerty.png" usemap="#image-map" id="image">
     <map name="image-map">
-        <area data-index="1" href="google.com" coords="582,110,544,75,486,75,451,99,394,101,367,115,438,164,475,151,492,130,528,124" shape="poly">
-        <area data-index="2" href="facebook.com" coords="481,150,493,186,526,209,648,188,636,151,583,112,511,129,489,131" shape="poly">
-        <area data-index="3" href="google.com" coords="643,193,643,183,565,204,533,207,525,221,494,222,471,235,458,252,487,269,509,264,516,248,539,246,555,240,567,238,567,217,587,209" shape="poly">
+        <area data-index="1" href="google.com"
+            coords="582,110,544,75,486,75,451,99,394,101,367,115,438,164,475,151,492,130,528,124" shape="poly">
+        <area data-index="2" href="facebook.com"
+            coords="481,150,493,186,526,209,648,188,636,151,583,112,511,129,489,131" shape="poly">
+        <area data-index="3" href="google.com"
+            coords="643,193,643,183,565,204,533,207,525,221,494,222,471,235,458,252,487,269,509,264,516,248,539,246,555,240,567,238,567,217,587,209"
+            shape="poly">
     </map>
     <svg id="highlight-overlay"></svg>
 
@@ -83,4 +90,5 @@
         });
     </script>
 </body>
+
 </html>
