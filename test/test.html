@@ -1,94 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Map Highlight</title>
+    <title>Unique Highlight Map</title>
     <style>
-        body {
-            margin: 0;
+        /* Scoped Styles for the Unique Div */
+        #unique-highlight-container {
             position: relative;
+            display: inline-block;
+            width: 100%;
+            max-width: 800px; /* Adjust as needed */
         }
 
-        img {
+        #unique-highlight-container img {
             display: block;
-            position: relative;
-            z-index: 1;
+            width: 100%; /* Ensure responsiveness */
+            height: auto;
         }
 
-        /* SVG overlay for the highlights */
-        svg {
+        #unique-highlight-container svg {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
-            height: auto;
+            height: 100%;
             pointer-events: none;
-            z-index: 2;
         }
 
-        /* Default polygon style */
-        polygon {
-            fill: rgba(255, 255, 255, 0.2);
-            /* stroke: rgba(0, 0, 0, 0.5); */
-            stroke-width: 5;
+        #unique-highlight-container polygon {
+            fill: rgba(255, 255, 255, 0.3);
+            stroke: rgba(0, 0, 0, 0.5);
+            stroke-width: 2;
             transition: all 0.3s ease;
         }
 
-        /* Highlighted polygon style */
-        polygon.active {
+        #unique-highlight-container polygon.active {
             fill: rgba(255, 255, 0, 0.6);
-            /* Bright yellow */
             stroke: rgba(255, 255, 0, 1);
         }
     </style>
 </head>
-
 <body>
-    <img src="/assets/images/qwerty.png" usemap="#image-map" id="image">
-    <map name="image-map">
-        <area data-index="1" href="google.com"
-            coords="582,110,544,75,486,75,451,99,394,101,367,115,438,164,475,151,492,130,528,124" shape="poly">
-        <area data-index="2" href="facebook.com"
-            coords="481,150,493,186,526,209,648,188,636,151,583,112,511,129,489,131" shape="poly">
-        <area data-index="3" href="google.com"
-            coords="643,193,643,183,565,204,533,207,525,221,494,222,471,235,458,252,487,269,509,264,516,248,539,246,555,240,567,238,567,217,587,209"
-            shape="poly">
-    </map>
-    <svg id="highlight-overlay"></svg>
+    <!-- Unique Highlight Container -->
+    <div id="unique-highlight-container">
+        <img src="assets/images/qwerty.png" usemap="#unique-image-map" id="unique-image">
+        <svg id="unique-highlight-overlay"></svg>
+
+        <map name="unique-image-map">
+            <area data-index="1" href="google.com" coords="582,110,544,75,486,75,451,99,394,101,367,115,438,164,475,151,492,130,528,124" shape="poly">
+            <area data-index="2" href="facebook.com" coords="481,150,493,186,526,209,648,188,636,151,583,112,511,129,489,131" shape="poly">
+            <area data-index="3" href="google.com" coords="643,193,643,183,565,204,533,207,525,221,494,222,471,235,458,252,487,269,509,264,516,248,539,246,555,240,567,238,567,217,587,209" shape="poly">
+        </map>
+    </div>
 
     <script>
-        const image = document.getElementById("image");
-        const areas = document.querySelectorAll("area");
-        const overlay = document.getElementById("highlight-overlay");
-
-        // Set the SVG size to match the image dimensions
-        image.addEventListener("load", () => {
-            overlay.style.width = `${image.offsetWidth}px`;
-            overlay.style.height = `${image.offsetHeight}px`;
-            overlay.setAttribute("viewBox", `0 0 ${image.offsetWidth} ${image.offsetHeight}`);
-        });
-
-        areas.forEach((area) => {
-            const coords = area.getAttribute("coords");
-            const points = coords.split(",").join(" ");
-
-            // Create a polygon for each area
-            const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-            polygon.setAttribute("points", points);
-            overlay.appendChild(polygon);
-
-            // Add hover effects
-            area.addEventListener("mouseover", () => {
-                polygon.classList.add("active");
-            });
-
-            area.addEventListener("mouseout", () => {
-                polygon.classList.remove("active");
-            });
-        });
-    </script>
-</body>
-
-</html>
+        // Scoped Script for Unique Highlight Map
+        (function() {
+            const container = document.getElementById("unique-highlight-container");
+            const image = container.querySelector("#unique-image");
+            const areas = container.querySelectorAll("

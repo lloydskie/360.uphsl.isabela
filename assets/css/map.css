@@ -1,0 +1,36 @@
+.map.map {
+    margin: 0;
+    position: relative;
+}
+
+.img {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+/* SVG overlay for the highlights */
+.svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* Default polygon style */
+.polygon {
+    fill: rgba(255, 255, 255, 0.2);
+    /* stroke: rgba(0, 0, 0, 0.5); */
+    stroke-width: 5;
+    transition: all 0.3s ease;
+}
+
+/* Highlighted polygon style */
+.polygon.active {
+    fill: rgba(255, 255, 0, 0.6);
+    /* Bright yellow */
+    stroke: rgba(255, 255, 0, 1);
+}
