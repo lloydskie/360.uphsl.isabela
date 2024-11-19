@@ -13,10 +13,17 @@
 	background-color:#FFF100;
 	height:30px;
 }
-
+/* Media query for small screens (Laptop) */
+@media (max-width: 1024px) {
+    .navbar-above2 {
+		margin-top: 100px;
+		height: 5px;
+	}
+}
 /* Media query for small screens (Tablet) */
 @media (max-width: 960px) {
     .navbar-above2 {
+		margin-top: 100px;
 		height: 5px;
 	}
 }
@@ -24,12 +31,14 @@
 /* Media query for small screens (mobile) */
 @media (max-width: 768px) {
     .navbar-above2 {
+		margin-top: 100px;
 		height: 5px;
 	}
 }
 
 @media (max-width: 320px) {
     .navbar-above2 {
+		margin-top: 90px;
 		height: 10px;
 	}
 }
