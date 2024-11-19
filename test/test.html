@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unique Highlight Map</title>
+    <title>Image Map Highlight</title>
     <style>
-        /* Scoped Styles for the Unique Div */
-        #unique-highlight-container {
+        body {
+            margin: 0;
+            position: relative;
+        }
+
+        .container {
             position: relative;
             display: inline-block;
-            width: 100%;
-            max-width: 800px; /* Adjust as needed */
         }
 
-        #unique-highlight-container img {
+        img {
             display: block;
-            width: 100%; /* Ensure responsiveness */
-            height: auto;
         }
 
-        #unique-highlight-container svg {
+        svg {
             position: absolute;
             top: 0;
             left: 0;
@@ -28,35 +28,91 @@
             pointer-events: none;
         }
 
-        #unique-highlight-container polygon {
+        polygon {
             fill: rgba(255, 255, 255, 0.3);
             stroke: rgba(0, 0, 0, 0.5);
             stroke-width: 2;
             transition: all 0.3s ease;
         }
 
-        #unique-highlight-container polygon.active {
+        polygon.active {
             fill: rgba(255, 255, 0, 0.6);
             stroke: rgba(255, 255, 0, 1);
         }
     </style>
 </head>
 <body>
-    <!-- Unique Highlight Container -->
-    <div id="unique-highlight-container">
-        <img src="assets/images/qwerty.png" usemap="#unique-image-map" id="unique-image">
-        <svg id="unique-highlight-overlay"></svg>
-
-        <map name="unique-image-map">
-            <area data-index="1" href="google.com" coords="582,110,544,75,486,75,451,99,394,101,367,115,438,164,475,151,492,130,528,124" shape="poly">
-            <area data-index="2" href="facebook.com" coords="481,150,493,186,526,209,648,188,636,151,583,112,511,129,489,131" shape="poly">
-            <area data-index="3" href="google.com" coords="643,193,643,183,565,204,533,207,525,221,494,222,471,235,458,252,487,269,509,264,516,248,539,246,555,240,567,238,567,217,587,209" shape="poly">
-        </map>
+    <div class="container">
+        <img src="/assets/images/qwerty.png" usemap="#image-map" id="image">
+        <svg id="highlight-overlay"></svg>
     </div>
 
+    <map name="image-map">
+        <area data-index="1" href="google.com"
+            coords="582,110,544,75,486,75,451,99,394,101,367,115,438,164,475,151,492,130,528,124" shape="poly">
+        <area data-index="2" href="facebook.com"
+            coords="481,150,493,186,526,209,648,188,636,151,583,112,511,129,489,131" shape="poly">
+        <area data-index="3" href="google.com"
+            coords="643,193,643,183,565,204,533,207,525,221,494,222,471,235,458,252,487,269,509,264,516,248,539,246,555,240,567,238,567,217,587,209"
+            shape="poly">
+        <area data-index="4" href="facebook.com"
+            coords="648,193,661,225,627,269,624,280,613,286,602,284,575,274,563,281,548,287,538,281,511,265,515,250,541,245,553,241,567,240,568,219,576,211"
+            shape="poly">
+        <area data-index="5" href="google.com"
+            coords="660,228,625,274,643,293,658,302,665,295,690,292,700,279,704,265,698,249,667,249,657,242"
+            shape="poly">
+        <area data-index="6" href="facebook.com"
+            coords="743,335,764,313,769,272,723,248,698,249,705,264,700,282,689,292,685,316,699,324,714,321"
+            shape="poly">
+        <area data-index="7" href="google,com"
+            coords="646,326,689,320,748,333,772,348,771,360,726,369,724,378,691,384,676,398,650,399,628,392,578,398,567,388,555,384,528,375,513,373,502,367,520,361,548,365,555,358,555,346,564,338,571,329,585,339,606,335,635,340"
+            shape="poly">
+        <area data-index="8" href="facebook.com"
+            coords="658,302,665,295,686,295,688,319,645,325,634,340,606,335,585,337,572,329,592,308,590,290,607,281,624,277"
+            shape="poly">
+        <area data-index="9" href="google.com"
+            coords="569,327,545,322,525,330,487,327,470,329,471,342,456,344,446,336,418,342,411,336,423,328,415,312,405,312,393,317,344,322,344,334,332,341,338,360,340,379,348,401,374,407,416,389,423,377,442,381,477,396,499,370,523,360,547,362,554,360,553,349,565,338,484,468"
+            shape="poly">
+    </map>
+
     <script>
-        // Scoped Script for Unique Highlight Map
-        (function() {
-            const container = document.getElementById("unique-highlight-container");
-            const image = container.querySelector("#unique-image");
-            const areas = container.querySelectorAll("
+        const image = document.getElementById("image");
+        const areas = document.querySelectorAll("area");
+        const overlay = document.getElementById("highlight-overlay");
+
+        // Adjust SVG to match the image's dimensions
+        const resizeOverlay = () => {
+            overlay.style.width = `${image.offsetWidth}px`;
+            overlay.style.height = `${image.offsetHeight}px`;
+            overlay.setAttribute("viewBox", `0 0 ${image.naturalWidth} ${image.naturalHeight}`);
+        };
+
+        // Resize overlay when the image is loaded or resized
+        if (image.complete) {
+            resizeOverlay();
+        } else {
+            image.addEventListener("load", resizeOverlay);
+        }
+        window.addEventListener("resize", resizeOverlay);
+
+        // Create polygons for each area
+        areas.forEach((area) => {
+            const coords = area.getAttribute("coords");
+            const points = coords.split(",").join(" ");
+
+            // Create a polygon
+            const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+            polygon.setAttribute("points", points);
+            overlay.appendChild(polygon);
+
+            // Add hover effects
+            area.addEventListener("mouseover", () => {
+                polygon.classList.add("active");
+            });
+            area.addEventListener("mouseout", () => {
+                polygon.classList.remove("active");
+            });
+        });
+    </script>
+</body>
+</html>

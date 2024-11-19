@@ -1,320 +1,114 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--=============== REMIXICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Map</title>
+    <style>
+        body {
+            margin: 0;
+        }
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/iframe.css">
-        <link rel="stylesheet" href="assets/css/navcolor.css">
-        <link rel="stylesheet" href="assets/css/hero.css">
-        <link rel="stylesheet" href="assets/css/preloader.css">
-        <!--=============== FAVICON ===============-->
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
-        <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+        .container {
+            position: relative;
+            display: inline-block;
+        }
 
-        <title>UPHSL-IC Virtual Campus Tour</title>
-    </head>
-    <body id="#Home">
-        <!--=============== PRELOADER ===============-->
-        <div class="preloader-container">
-            <div id="dots"></div>
-        </div>
-        <!--=============== HEADER ===============-->
-        <header class="header">
-            <div class="topnavbar-above">&nbsp;</div>
-            <div class="topnav-container">
-                <a href="privacy-policy.html"><p id="privacy-policy">Privacy Policy</p></a>
-                <i class="ri-mail-line" id="mailto"></i>
-                <a href="mailto:someone@example.com"><p id="mailtoadd">registrar@isabela.uphsl.edu.ph</p></a>
-                <a id="socialfb" href="https://www.facebook.com/UPHIsabela"><i class="ri-facebook-fill"></i></a>
-                <a id="socialinsta" href="https://www.instagram.com/uphs.isabela/"><i class="ri-instagram-line"></i></a>
-                <a id="socialcontacts" href="#"><i class="ri-phone-fill"></i></a>
-            </div>
-            <!-- <div class="navbar-above">&nbsp;</div> -->
-			<div class="navbar-above1">&nbsp;</div>
-            <nav class="nav container">
-                <div class="nav__data">
-                    <a href="index.html" class="nav__logo">
-                        <!-- <i class="ri-code-s-slash-line"></i> CodeBox -->
-                        <img src="assets/images/isabela_logo.png" alt="School Logo" style="height: 50px;" />
-                    </a>
-    
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="ri-menu-line nav__toggle-menu"></i>
-                        <i class="ri-close-line nav__toggle-close"></i>
-                    </div>
-                </div>
+        img {
+            display: block;
+            width: 100%; /* Ensure the image scales responsively */
+            height: auto;
+        }
 
-                <!--=============== NAV MENU ===============-->
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li>
-                            <a href="index.html" class="nav__link">Home</a>
-                        </li>
-                        <li>
-                            <a href="#Programs" class="nav__link">Programs</a>
-                        </li>
-                        <li>
-                            <a href="#Academics" class="nav__link">Academics</a>
-                        </li>
-                        <li>
-                            <a href="map.html" class="nav__link">Virtual Tour</a>
-                        </li>
-                        <li>
-                            <a href="#About" class="nav__link">About</a>
-                        </li>
+        svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
 
-                        <!--=============== DROPDOWN 1 ===============-->
-                        <!-- <li class="dropdown__item">                      
-                            <div class="nav__link dropdown__button">
-                                Discover <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                            </div>
+        polygon {
+            fill: rgba(255, 255, 255, 0.3);
+            stroke: rgba(0, 0, 0, 0.5);
+            stroke-width: 2;
+            transition: all 0.3s ease;
+        }
 
-                            <div class="dropdown__container">
-                                <div class="dropdown__content">
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-book-mark-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Programs Offered</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Arts and Sciences</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Business Courses</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Computer Courses</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">International Hospitality Management</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Education Courses</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Allied Health Courses</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Tesda Accredited Vocational Courses</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Basic Education</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-heart-3-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Popular courses</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Development with Flutter</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Web development with React</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Backend development expert</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-book-mark-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Careers</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Web development</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Applications development</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">UI/UX design</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Informatic security</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-file-paper-2-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Certifications</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Course certificates</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Free certifications</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li> -->
+        polygon.active {
+            fill: rgba(255, 255, 0, 0.6);
+            stroke: rgba(255, 255, 0, 1);
+        }
+    </style>
+</head>
 
-                        <!--=============== DROPDOWN 2 ===============-->
-                        <!-- <li class="dropdown__item">
-                            <div class="nav__link dropdown__button">
-                                Resources <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                            </div>
-
-                            <div class="dropdown__container">
-                                <div class="dropdown__content">
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-code-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Web templates</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Free templates</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Premium templates</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-pen-nib-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Designs</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Web designs</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">App designs</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Component design</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-apps-2-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Others</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Recent blogs</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Tutorial videos</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Webinar</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li> -->
-
-                        <!-- <li>
-                            <a href="#" class="nav__link">Pricing</a>
-                        </li> -->
-
-                        <!--=============== DROPDOWN 3 ===============-->
-                        <!-- <li class="dropdown__item">                        
-                            <div class="nav__link dropdown__button">
-                                University <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                            </div>
-
-                            <div class="dropdown__container">
-                                <div class="dropdown__content">
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-community-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">About us</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">About us</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Support</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Contact us</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-                                        <div class="dropdown__icon">
-                                            <i class="ri-shield-line"></i>
-                                        </div>
-    
-                                        <span class="dropdown__title">Safety and quality</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="#" class="dropdown__link">Cookie settings</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="dropdown__link">Privacy Policy</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li> -->
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-        <!-- <script src="assets/js/preloader.js"></script> -->
-    </body>
-    <!--=============== CONTENTS ===============-->
-    <br>
-    <br>
-    <br>
-    <br>
-    <!-- <div class="hero">
-        <img id="hero-img" src="assets/images/demo/bannertemplate-isabela.jpg" alt="Isabela Campus">
-    </div> -->
-    <div class="navbar-above2">&nbsp;</div>
-    <!--=============== 360deg TOUR ===============-->
+<body>
     <center>
-        <iframe src="app-files/index.html" name="myiFrame" allowfullscreen></iframe>
+        <div class="container">
+            <img src="/assets/images/qwerty.png" usemap="#image-map" id="image">
+            <svg id="highlight-overlay"></svg>
+        </div>
+
+        <map name="image-map">
+            <area data-index="1" href="google.com"
+                coords="582,110,544,75,486,75,451,99,394,101,367,115,438,164,475,151,492,130,528,124" shape="poly">
+            <area data-index="2" href="facebook.com"
+                coords="481,150,493,186,526,209,648,188,636,151,583,112,511,129,489,131" shape="poly">
+        </map>
     </center>
+
+    <script>
+        const image = document.getElementById("image");
+        const areas = document.querySelectorAll("area");
+        const overlay = document.getElementById("highlight-overlay");
+
+        // Function to update polygon coordinates dynamically
+        const updatePolygons = () => {
+            const imgWidth = image.offsetWidth;
+            const imgHeight = image.offsetHeight;
+            const originalWidth = image.naturalWidth;
+            const originalHeight = image.naturalHeight;
+
+            const scaleX = imgWidth / originalWidth;
+            const scaleY = imgHeight / originalHeight;
+
+            // Clear existing polygons
+            overlay.innerHTML = "";
+
+            areas.forEach((area) => {
+                const coords = area.getAttribute("coords").split(",").map(Number);
+                const scaledCoords = coords.map((val, index) => index % 2 === 0 ? val * scaleX : val * scaleY);
+
+                // Create polygon
+                const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+                polygon.setAttribute("points", scaledCoords.join(" "));
+                overlay.appendChild(polygon);
+
+                // Add hover effects
+                area.addEventListener("mouseover", () => {
+                    polygon.classList.add("active");
+                });
+                area.addEventListener("mouseout", () => {
+                    polygon.classList.remove("active");
+                });
+            });
+
+            // Sync SVG dimensions
+            overlay.style.width = `${imgWidth}px`;
+            overlay.style.height = `${imgHeight}px`;
+            overlay.setAttribute("viewBox", `0 0 ${imgWidth} ${imgHeight}`);
+        };
+
+        // Resize and update polygons when the image is resized or loaded
+        if (image.complete) {
+            updatePolygons();
+        } else {
+            image.addEventListener("load", updatePolygons);
+        }
+        window.addEventListener("resize", updatePolygons);
+    </script>
+</body>
+
 </html>
