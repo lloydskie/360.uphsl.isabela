@@ -32,7 +32,38 @@
 .gallery img:hover {
     transform: scale(1.02);
 }
+/* Media query for small screens (Mobile L) */
+@media (max-width: 425px) {
+    .gallery {
+        margin-top: 10px;
+    }
 
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery iframe {
+        width: 405px;
+        height: 250px;
+    }
+}
+/* Media query for small screens (Mobile M) */
+@media (max-width: 375px) {
+    .gallery {
+        margin-top: 10px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery iframe {
+        width: 350px;
+        height: 250px;
+    }
+}
 /* Media query for small screens (Mobile S) */
 @media (max-width: 320px) {
     .gallery {
