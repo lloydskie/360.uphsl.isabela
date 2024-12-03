@@ -32,6 +32,20 @@
 .gallery img:hover {
     transform: scale(1.02);
 }
+/* Media query for small screens (Surface Duo) */
+@media (max-width: 540px) {
+    .gallery iframe {
+        width: 520px;
+        height: 250px;
+    }
+}
+/* Media query for small screens (iPhone 14 Pro Max) */
+@media (max-width: 430px) {
+    .gallery iframe {
+        width: 408px;
+        height: 250px;
+    }
+}
 /* Media query for small screens (Mobile L) */
 @media (max-width: 425px) {
     .gallery {
@@ -48,6 +62,20 @@
         height: 250px;
     }
 }
+/* Media query for small screens (iPhone XR) */
+@media (max-width: 414px) {
+    .gallery iframe {
+        width: 392px;
+        height: 250px;
+    }
+}
+/* Media query for small screens (iPhone 12 Pro) */
+@media (max-width: 390px) {
+    .gallery iframe {
+        width: 370px;
+        height: 250px;
+    }
+}
 /* Media query for small screens (Mobile M) */
 @media (max-width: 375px) {
     .gallery {
@@ -61,6 +89,29 @@
 
     .gallery iframe {
         width: 350px;
+        height: 250px;
+    }
+}
+/* Media query for small screens (Samsung Galaxy S8+) */
+@media (max-width: 360px) {
+    .gallery iframe {
+        width: 340px;
+        height: 250px;
+    }
+}
+/* Media query for small screens (Galaxy Z Fold 5) */
+@media (max-width: 344px) {
+    .gallery {
+        margin-top: 10px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery iframe {
+        width: 322px;
         height: 250px;
     }
 }
