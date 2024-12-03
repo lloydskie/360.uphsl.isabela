@@ -11,9 +11,15 @@
 }
 
 .gallery h1 {
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.gallery iframe {
+    width: 580px;
+    height: 450px;
 }
 
 .gallery img {
@@ -24,5 +30,22 @@
 }
 
 .gallery img:hover {
-    transform: scale(1.5);
+    transform: scale(1.02);
+}
+
+/* Media query for small screens (Mobile S) */
+@media (max-width: 320px) {
+    .gallery {
+        margin-top: 10px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery iframe {
+        width: 300px;
+        height: 250px;
+    }
 }

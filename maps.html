@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/hero.css">
     <link rel="stylesheet" href="assets/css/preloader.css">
     <link rel="stylesheet" href="assets/css/programs.css">
+    <link rel="stylesheet" href="assets/css/alert.css">
     <link rel="stylesheet" href="assets/css/map.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <!--=============== FAVICON ===============-->
@@ -114,9 +115,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="gallery">
-    <h1>UPHSL SITE MAP</h1>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4662.191407846715!2d121.75778387594761!3d16.9138767838948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33855176e77bec7b%3A0x3f211f12fff5e92c!2sUniversity%20of%20Perpetual%20Help%20System%20Laguna%20Isabela%20Campus!5e1!3m2!1sen!2sph!4v1733227158240!5m2!1sen!2sph" width="580" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h1>UPHSL-IC SITE MAP</h1>
     <img src="assets/images/map.png" alt="Placeholder 1">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4662.191407846715!2d121.75778387594761!3d16.9138767838948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33855176e77bec7b%3A0x3f211f12fff5e92c!2sUniversity%20of%20Perpetual%20Help%20System%20Laguna%20Isabela%20Campus!5e1!3m2!1sen!2sph!4v1733227158240!5m2!1sen!2sph"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h1>UPHSL-IC FLOOR PLAN</h1>
     <img src="assets/images/maps/Basement Plan Main Building.drawio.png" alt="Placeholder 2">
     <img src="assets/images/maps/Ground Floor Plan Main Building.drawio.png" alt="Placeholder 3">
     <img src="assets/images/maps/Second Floor Plan Main Building.drawio.png" alt="Placeholder 4">
@@ -155,5 +159,57 @@
             <div class="text-center p-3" style="margin: 20px 0 0 0; text-decoration: none; background-color: rgba(0, 0, 0, 0.2)"> © 2024 Copyright: <a style="color: #656E81;" class="text-dark" href="https://360-uphsl-isabela.pages.dev/">UPHSL-IC</a></div>
         </center>
     </footer> -->
+
+<!--=============== ALERT ===============-->
+<!-- Overlay for background blur and darkening effect -->
+<div class="overlay" id="backgroundOverlay"></div>
+<div class="callout" id="deviceCallout">
+    <div class="callout-header">WELCOME 🚩</div>
+    <span class="closebtn" onclick="closeCallout()">✖</span>
+    <div class="callout-container" id="calloutMessage">
+        <!-- Message will be injected by JavaScript -->
+    </div>
+</div>
+<script>
+    function detectDeviceType() {
+        const ua = navigator.userAgent;
+        if (/tablet|ipad|playbook|silk/i.test(ua)) {
+            return 'tablet';
+        } else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry/i.test(ua)) {
+            return 'mobile';
+        }
+        return 'laptop or desktop';
+    }
+
+    function showDeviceCallout() {
+        const deviceType = detectDeviceType();
+        const calloutMessage = document.getElementById('calloutMessage');
+        const callout = document.getElementById('deviceCallout');
+        const overlay = document.getElementById('backgroundOverlay');
+        // Customize the message based on device type
+        let message = `You are using a ${deviceType}. `;
+        if (deviceType === 'mobile') {
+            message += "For a better experience, consider exploring the map in full-screen or rotating your device to landscape mode. For more info you may ";
+        } else if (deviceType === 'tablet') {
+            message += "Enjoy our responsive layout optimized for tablets! For more info you may ";
+        } else {
+            message += "Explore the map in full-screen for the best experience. For more info you may ";
+        }
+        // Add 'Learn more' link
+        message += ` 
+																									<a href="privacy-policy.html" style="color: #FFF100; font-weight: 900;">contact us</a>.`;
+        // Set the message, show the overlay and display the callout
+        calloutMessage.innerHTML = message;
+        overlay.style.display = 'block';
+        callout.style.display = 'block';
+    }
+
+    function closeCallout() {
+        document.getElementById('deviceCallout').style.display = 'none';
+        document.getElementById('backgroundOverlay').style.display = 'none';
+    }
+    // Show the callout when the page loads
+    window.onload = showDeviceCallout;
+</script>
 
 </html>
