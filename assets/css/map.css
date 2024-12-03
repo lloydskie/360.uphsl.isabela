@@ -1,36 +1,20 @@
-.map.map {
-    margin: 0;
-    position: relative;
-}
-
-.img {
+.gallery {
     display: block;
-    position: relative;
-    z-index: 1;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
 }
 
-/* SVG overlay for the highlights */
-.svg {
-    position: absolute;
-    top: 0;
-    left: 0;
+.gallery img {
     width: 100%;
     height: auto;
-    pointer-events: none;
-    z-index: 2;
+    border-radius: 8px;
+    transition: transform 0.2s;
 }
 
-/* Default polygon style */
-.polygon {
-    fill: rgba(255, 255, 255, 0.2);
-    /* stroke: rgba(0, 0, 0, 0.5); */
-    stroke-width: 5;
-    transition: all 0.3s ease;
-}
-
-/* Highlighted polygon style */
-.polygon.active {
-    fill: rgba(255, 255, 0, 0.6);
-    /* Bright yellow */
-    stroke: rgba(255, 255, 0, 1);
+.gallery img:hover {
+    transform: scale(1.05);
 }
