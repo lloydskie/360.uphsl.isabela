@@ -1,13 +1,4 @@
-.navbar-above {
-	background-color:#003399;
-	height:20px;
-	margin-top:0px;
-}
-.navbar-above1 {
-	background-color:#FFF100;
-	height:5px;
-}
-.navbar-above2 {
+.navbar-above3 {
     margin: none;
     padding: none;
 	background-color:#FFF100;
@@ -16,44 +7,55 @@
 
 /* Media query for small screens (Laptop) */
 @media (max-width: 1920px) {
-    .navbar-above2 {
-		margin-top: 130px;
+    .navbar-above3 {
+		margin-top: 58px;
 		height: 5px;
 	}
 }
 /* Media query for small screens (Laptop) */
 @media (max-width: 1440px) {
-    .navbar-above2 {
-		margin-top: 130px;
+    .navbar-above3 {
+		margin-top: 58px;
 		height: 5px;
 	}
 }
 /* Media query for small screens (Laptop) */
 @media (max-width: 1024px) {
-    .navbar-above2 {
-		margin-top: 100px;
+    .navbar-above3 {
+		margin-top:26px;
 		height: 5px;
 	}
 }
 /* Media query for small screens (Tablet) */
 @media (max-width: 960px) {
-    .navbar-above2 {
-		margin-top: 100px;
+    .navbar-above3 {
+		margin-top: 30px;
 		height: 5px;
 	}
 }
 
 /* Media query for small screens (mobile) */
 @media (max-width: 768px) {
-    .navbar-above2 {
-		margin-top: 100px;
+    .navbar-above3 {
+		margin-top: 30px;
 		height: 5px;
 	}
 }
-
+@media (max-width: 425px) {
+    .navbar-above3 {
+		margin-top: 30px;
+		height: 10px;
+	}
+}
+@media (max-width: 375px) {
+    .navbar-above3 {
+		margin-top: 30px;
+		height: 10px;
+	}
+}
 @media (max-width: 320px) {
-    .navbar-above2 {
-		margin-top: 90px;
+    .navbar-above3 {
+		margin-top: 20px;
 		height: 10px;
 	}
 }

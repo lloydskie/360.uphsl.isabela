@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        <!--=============== CSS ===============-->
+        <!--=============== CSS ======================-->
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="stylesheet" href="assets/css/iframe.css">
         <link rel="stylesheet" href="assets/css/navcolor.css">
@@ -13,7 +13,21 @@
         <link rel="stylesheet" href="assets/css/preloader.css">
         <link rel="stylesheet" href="assets/css/programs.css">
         <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/alert.css">
         <link rel="stylesheet" href="assets/css/promovideo.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!--=============== CSS ===============-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!--=============== BOOTSTRAP ===============-->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <!--=============== MDB5 ===============-->
+        <!-- Font Awesome -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" /> -->
+        <!-- Google Fonts Roboto -->
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" /> -->
+        <!-- MDB -->
+        <!-- <link rel="stylesheet" href="css/mdb.min.css" /> -->
         <!--=============== FAVICON ===============-->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
@@ -21,6 +35,7 @@
         <link rel="manifest" href="assets/favicon_io/site.webmanifest">
         <title>UPHSL-IC Virtual Campus Tour</title>
     </head>
+    
     <body id="#Home">
         <!--=============== PRELOADER ===============-->
         <div class="preloader-container">
@@ -61,37 +76,38 @@
                     </div>
                 </div>
                 <!--=============== NAV MENU ===============-->
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                  <li><a href="index.html" class="nav__link" style="text-decoration: none; color: #fff;">Home</a></li>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                      <li><a href="index.html" class="nav__link" style="text-decoration: none; color: #fff;">Home</a></li>
+                      
+                      <!-- Digital Exploration Dropdown -->
+                      <li class="dropdown__item">
+                        <a href="#" class="nav__link dropdown__button" style="text-decoration: none; color: #fff;">Digital Exploration<i class="ri-arrow-down-s-line dropdown__arrow"></i></a>
+                        <div class="dropdown__container">
+                          <ul class="dropdown__list">
+                            <li><a href="app-files/index.html" class="dropdown__link" style="font-weight: bold; font-size:16px; padding-right: 20px; word-wrap: normal;">Virtual&nbsp;Tour</a></li>
+                            <li><a href="maps.html" class="dropdown__link" style="font-weight: bold; font-size:16px;">Maps</a></li>
+                          </ul>
+                        </div>
+                      </li>
                   
-                  <!-- Digital Exploration Dropdown -->
-                  <li class="dropdown__item">
-                    <a href="#" class="nav__link dropdown__button" style="text-decoration: none; color: #fff;">Digital Exploration<i class="ri-arrow-down-s-line dropdown__arrow"></i></a>
-                    <div class="dropdown__container">
-                      <ul class="dropdown__list">
-                        <li><a href="app-files/index.html" class="dropdown__link" style="font-weight: bold; font-size:16px; padding-right: 20px; word-wrap: normal;">Virtual&nbsp;Tour</a></li>
-                        <li><a href="maps.html" class="dropdown__link" style="font-weight: bold; font-size:16px;">Maps</a></li>
-                      </ul>
-                    </div>
-                  </li>
-              
-                  <!-- About Dropdown -->
-                  <li class="dropdown__item">
-                    <a href="#" class="nav__link dropdown__button" style="text-decoration: none; color: #fff;">About<i class="ri-arrow-down-s-line dropdown__arrow"></i></a>
-                    <div class="dropdown__container">
-                      <ul class="dropdown__list">
-                        <li><a href="campuses.html" class="dropdown__link" style="font-weight: bold; font-size:16px; word-wrap: normal; padding-right: 20px;">UPHS&nbsp;Campuses</a></li>
-                        <li><a href="about2.html" class="dropdown__link" style="font-weight: bold; font-size:16px;">Mission & Vision</a></li>
-                        <li><a href="about.html" class="dropdown__link" style="font-weight: bold; font-size:16px;">Video</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+                      <!-- About Dropdown -->
+                      <li class="dropdown__item">
+                        <a href="#" class="nav__link dropdown__button" style="text-decoration: none; color: #fff;">About<i class="ri-arrow-down-s-line dropdown__arrow"></i></a>
+                        <div class="dropdown__container">
+                          <ul class="dropdown__list">
+                            <li><a href="campuses.html" class="dropdown__link" style="font-weight: bold; font-size:16px; word-wrap: normal; padding-right: 20px;">UPHS&nbsp;Campuses</a></li>
+                            <li><a href="about2.html" class="dropdown__link" style="font-weight: bold; font-size:16px;">Mission & Vision</a></li>
+                            <li><a href="about.html" class="dropdown__link" style="font-weight: bold; font-size:16px;">Video</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
             </nav>
         </header>
         <!--=============== MAIN JS ===============-->
+        <script src="assets/js/maps.js"></script>
         <script src="assets/js/main.js"></script>
         <script src="assets/js/preloader.js"></script>
     </body>

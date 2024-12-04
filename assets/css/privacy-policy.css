@@ -11,19 +11,24 @@
         width: 90%;
         margin: 0 auto;
         /* Reduced height on larger screens */
+        padding-top: 90px;
     }
 }
+
 /* Media query for small screens (Tablet) */
 @media (max-width: 960px) {
     .privacy-policy {
         width: 90%;
         margin: 0 auto;
         /* Reduced height on larger screens */
+        padding-top: 90px;
     }
+
     #hero-img {
         margin-top: 100px;
     }
 }
+
 /* Media query for small screens (Tablet) */
 @media (max-width: 768px) {
     .privacy-policy {
@@ -31,8 +36,8 @@
         margin: 0 auto;
         /* Reduced height on larger screens */
     }
+
     #hero-img {
         margin-top: 100px;
     }
 }
-
