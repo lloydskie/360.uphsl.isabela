@@ -1,6 +1,7 @@
 * {
-  font-style: "Poppins", sans-serif;
+  font-style: 'Poppins', sans-serif;
 }
+
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -291,23 +292,22 @@ a {
 }
 
 .nav__toggle-close {
-  opacity: 0;
+  opacity: 0; /* Initially hidden */
+  transform: rotate(90deg);
+  transition: opacity 0.3s, transform 0.3s;
 }
 
 @media screen and (max-width: 1118px) {
   .nav__menu {
-    background-color: var(--body-color);
-    position: absolute;
-    left: 0;
-    top: 2.5rem;
-    width: 100%;
-    height: calc(100vh - 3.5rem);
-    overflow: auto;
-    padding-block: 1.5rem 4rem;
-    pointer-events: none;
+    margin-right: -16px;
+    background-color: #003399;
+    display: flex; /* Menu shown by default */
     opacity: 0;
-    transition: top 0.4s, opacity 0.3s;
-  }
+    pointer-events: initial;
+    position: static;
+    flex-direction: row;
+}
+
 
   .nav__menu::-webkit-scrollbar {
     width: 0.5rem;
@@ -320,35 +320,45 @@ a {
 
 .nav__link {
   color: var(--title-color);
-  font-weight: var(--font-semi-bold);
-  padding: 1.25rem 1.5rem;
+  padding: 1rem 1.5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-transform: uppercase;
+  font-weight: var(--font-semi-bold);
   transition: background-color 0.3s;
+  cursor: pointer;
 }
 
 .nav__link:hover {
-  background-color: var(--first-color-lighten);
+  background-color: #003399;
 }
 
 /* Show menu */
 .show-menu {
+  display: block;
+  /* Show the menu */
   opacity: 1;
-  top: 6.3rem;
   pointer-events: initial;
+  /* Enable interaction */
 }
 
 /* Show icon */
 .show-icon .nav__toggle-menu {
   opacity: 0;
+  /* Hide hamburger icon when menu is open */
   transform: rotate(90deg);
+  transition: opacity 0.3s, transform 0.3s;
 }
+
 
 .show-icon .nav__toggle-close {
   opacity: 1;
-  transform: rotate(90deg);
+  /* Show close icon when menu is open */
+  transform: rotate(180deg);
+  transition: opacity 0.3s, transform 0.3s;
 }
+
 
 /*=============== DROPDOWN ===============*/
 .dropdown__button {
@@ -356,9 +366,8 @@ a {
 }
 
 .dropdown__arrow {
-  font-size: 1.5rem;
-  font-weight: initial;
-  transition: transform 0.4s;
+  font-size: 1.25rem;
+  transition: transform 0.3s;
 }
 
 .dropdown__content,
@@ -403,18 +412,26 @@ a {
 }
 
 .dropdown__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown__list {
   row-gap: 0.25rem;
 }
 
 .dropdown__link {
-  font-size: var(--smaller-font-size);
-  font-weight: var(--font-medium);
+  text-align: center;
+  padding: 0.75rem 1.5rem;
+  display: block;
   color: var(--text-color);
+  text-transform: capitalize;
   transition: color 0.3s;
 }
 
 .dropdown__link:hover {
-  color: var(--title-color);
+  color: var(--first-color);
 }
 
 /* Rotate dropdown icon */
@@ -448,38 +465,40 @@ a {
     display: flex;
     column-gap: 3rem;
     height: 100%;
-  }
+}
 
   .nav li {
+    margin-left: 20px;
     display: flex;
   }
 
   .nav__link {
-    color: #ffffff;
+
+    color: #fff;
     padding: 0;
   }
 
   .nav__link:hover {
+    color: var(--first-color-lighten);
     background-color: initial;
   }
 
   /* Dropdown */
   .dropdown__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     column-gap: 0.25rem;
-    pointer-events: none;
   }
 
   .dropdown__container {
-    height: max-content;
     position: absolute;
+    top: 100%;
     left: 0;
-    right: 0;
-    top: 6.5rem;
-    background-color: var(--body-color);
-    box-shadow: 0 6px 8px hsla(220, 68%, 12%, 0.05);
-    pointer-events: none;
-    opacity: 0;
-    transition: top 0.4s, opacity 0.3s;
+    display: none;
+    background-color: var(--first-color-lighten);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
   }
 
   .dropdown__content {
@@ -531,7 +550,7 @@ a {
   }
 
   .dropdown__item {
-    cursor: pointer;
+    position: relative;
   }
 
   .dropdown__item:hover .dropdown__arrow {
@@ -539,10 +558,7 @@ a {
   }
 
   .dropdown__item:hover>.dropdown__container {
-    top: 8.3rem;
-    opacity: 1;
-    pointer-events: initial;
-    cursor: initial;
+    display: block;
   }
 }
 
