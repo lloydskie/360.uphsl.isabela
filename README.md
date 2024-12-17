@@ -2,11 +2,15 @@
 
 This website was created for the University of Perpetual Help System Laguna - Isabela Campus to provide a 360 Virtual Tour of the campus. The primary goal is to offer an immersive experience for prospective students, parents, and visitors by allowing them to explore various facilities and key areas of the campus from the comfort of their own homes. This tool serves as an interactive way to showcase the campus and improve accessibility for those who cannot visit in person.
 
-![landing img](/landing.png)
+![landing img](/landing.jpeg)
 
 ---
 
-# 360-uphsl-isabela.pages.dev
+### Developers:
+
+<h1 align="center">Jezcerien Cabezon</h1>
+<h1 align="center">Hazel Agustin</h1>
+<h1 align="center">Princess Rapha Paycuan</h1>
 
 [360 Virtual Tour](http://360-uphsl-isabela.pages.dev)
 
