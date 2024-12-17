@@ -8,9 +8,9 @@ This website was created for the University of Perpetual Help System Laguna - Is
 
 ### Developers:
 
-<h1 align="center">Jezcerien Cabezon</h1>
-<h1 align="center">Hazel Agustin</h1>
-<h1 align="center">Princess Rapha Paycuan</h1>
+<h1 align="center"><a href="https://web.facebook.com/jez.cabezon">Jezcerien Cabezon</a></h1>
+<h1 align="center"><a href="https://web.facebook.com/lezah.agustin.21">Hazel Agustin</a></h1>
+<h1 align="center"><a href="https://web.facebook.com/princessrapha.paycuan">Princess Rapha Paycuan</a></h1>
 
 [360 Virtual Tour](http://360-uphsl-isabela.pages.dev)
 
