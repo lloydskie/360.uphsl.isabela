@@ -2,6 +2,76 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <style>
+    .modal-btn {
+        background:#003399;
+        color:#fff;
+        border:none;
+        border-radius:12px;
+        padding:24px;
+        width:320px;
+        font-size:1.2rem;
+        cursor:pointer;
+        box-shadow:0 2px 8px rgba(0,0,0,0.08);
+        transition: transform 0.2s, box-shadow 0.2s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+    .modal-btn:hover {
+        transform: translateY(-6px) scale(1.04);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+        background: #002266;
+    }
+    .modal-icon {
+        height: 95px;
+        width: 95px;
+        text-align: center;
+        line-height: 98px;
+        color: #fff;
+        font-size: 75px;
+        margin: 0px 2px 4px;
+        border-radius: 50%;
+        background: #003399;
+        transition: 0.3s;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        display: inline-block;
+    }
+    .modal-btn:hover .modal-icon {
+        background: #002266;
+        color: #fff100;
+        transform: scale(1.08);
+    }
+    .modal-content .modal-icon {
+        margin: 0 auto 16px auto;
+        display: block;
+    }
+    </style>
+    <style>
+    .modal-btn {
+        background:#007bff;
+        color:#fff;
+        border:none;
+        border-radius:12px;
+        padding:24px;
+        width:320px;
+        font-size:1.2rem;
+        cursor:pointer;
+        box-shadow:0 2px 8px rgba(0,0,0,0.08);
+        transition: transform 0.2s, box-shadow 0.2s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+    .modal-btn:hover {
+        transform: translateY(-6px) scale(1.04);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+        background: #0056b3;
+    }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--=============== REMIXICONS ===============-->
@@ -294,19 +364,25 @@
     style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-bottom: 40px;">
     <div class="modal-card-section"
         style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-bottom: 40px;">
-        <button class="modal-btn" onclick="openModal('acadModal')"
-            style="background:#007bff;color:#fff;border:none;border-radius:12px;padding:24px;width:320px;font-size:1.2rem;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.08);">Acad
-            & Scholarship</button>
-        <button class="modal-btn" onclick="openModal('regModal')"
-            style="background:#007bff;color:#fff;border:none;border-radius:12px;padding:24px;width:320px;font-size:1.2rem;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.08);">Registrar</button>
-        <button class="modal-btn" onclick="openModal('libModal')"
-            style="background:#007bff;color:#fff;border:none;border-radius:12px;padding:24px;width:320px;font-size:1.2rem;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.08);">Library</button>
+        <button class="modal-btn acad-btn" onclick="openModal('acadModal')">
+            <span class="modal-icon"><i class="fa fa-graduation-cap"></i></span>
+            Acad & Scholarship
+        </button>
+        <button class="modal-btn reg-btn" onclick="openModal('regModal')">
+            <span class="modal-icon"><i class="fa fa-briefcase"></i></span>
+            Registrar
+        </button>
+        <button class="modal-btn lib-btn" onclick="openModal('libModal')">
+            <span class="modal-icon"><i class="fa fa-book"></i></span>
+            Library
+        </button>
     </div>
     <!-- Modal Boxes -->
     <div id="acadModal" class="modal"
         style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;overflow:auto;background:rgba(0,0,0,0.5);">
         <div class="modal-content"
             style="background:#fff;margin:5% auto;padding:30px;border-radius:16px;width:90%;max-width:700px;position:relative;">
+            <span class="modal-icon"><i class="fa fa-graduation-cap"></i></span>
             <span class="close" onclick="closeModal('acadModal')"
                 style="position:absolute;top:16px;right:24px;font-size:2rem;cursor:pointer;">&times;</span>
             <h2>Acad & Scholarship : Enrolment Procedure</h2>
@@ -337,6 +413,7 @@
         style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;overflow:auto;background:rgba(0,0,0,0.5);">
         <div class="modal-content"
             style="background:#fff;margin:5% auto;padding:30px;border-radius:16px;width:90%;max-width:700px;position:relative;">
+            <span class="modal-icon"><i class="fa fa-briefcase"></i></span>
             <span class="close" onclick="closeModal('regModal')"
                 style="position:absolute;top:16px;right:24px;font-size:2rem;cursor:pointer;">&times;</span>
             <h2>Registrar</h2>
@@ -369,6 +446,7 @@
         style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;overflow:auto;background:rgba(0,0,0,0.5);">
         <div class="modal-content"
             style="background:#fff;margin:5% auto;padding:30px;border-radius:16px;width:90%;max-width:700px;position:relative;">
+            <span class="modal-icon"><i class="fa fa-book"></i></span>
             <span class="close" onclick="closeModal('libModal')"
                 style="position:absolute;top:16px;right:24px;font-size:2rem;cursor:pointer;">&times;</span>
             <h2>Library</h2>
@@ -493,6 +571,7 @@
         </div>
     </div>
     <script>
+    <!-- ...existing code... -->
         function openModal(id) {
             document.getElementById(id).style.display = 'block';
         }
