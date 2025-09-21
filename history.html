@@ -1,16 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        :root {
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            --fa-style-family-brands: "Font Awesome 6 Brands";
+            --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+            --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+            --fa-style-family-classic: "Font Awesome 6 Free";
+            --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+            --header-height: 55px;
+            --first-color: hsl(220, 67%, 54%);
+            --first-color-lighten: hsl(220, 68%, 97%);
+            --title-color: hsl(220, 48%, 28%);
+            --text-color: hsl(220, 12%, 45%);
+            --body-color: hsl(220, 100%, 99%);
+            --body-font: "Poppins", sans-serif;
+            --font-medium: 500;
+            --font-semi-bold: 600;
+            --z-tooltip: 10;
+            --z-fixed: 100;
+            --normal-font-size: 1rem;
+            --small-font-size: .875rem;
+            --smaller-font-size: .813rem;
+        }
+        .header {
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #333;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 2px 8px hsla(220, 29%, 42%, 0.1);
+            background-image: url('assets/images/demo/4feb8373-a00d-4c80-8cc3-180720922c53.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            z-index: var(--z-fixed);
+        }
+        .topnavbar-above {
+            background-color: #FFF100 !important;
+            height: 5px !important;
+        }
+        .topnav-container, .navbar-above1, .nav__menu {
+            background: transparent !important;
+        }
+        .nav__list > li > a,
+        .nav__link,
+        .dropdown__button,
+        .dropdown__link {
+            color: #fff !important;
+        }
+        body {
+            padding-top: var(--header-height);
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>History | University of Perpetual Help System Isabela</title>
-    <link rel="stylesheet" href="css/mdb.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/iframe.css">
+    <link rel="stylesheet" href="assets/css/navcolor.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/css/programs.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/alert.css">
+    <link rel="stylesheet" href="assets/css/promovideo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <style>
+        .nav__list > li > a,
+        .nav__link,
+        .dropdown__button,
+        .dropdown__link {
+            color: #fff !important;
+        }
         body {
-            background: #f8f9fa;
+            background: url('assets/images/bw_uph.jpg') no-repeat center center fixed;
+            background-size: cover;
             color: #003399;
             font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        .container {
+            background: rgba(255,255,255,0.92);
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+            padding: 30px 0;
+            margin-top: 40px;
         }
         .history-header {
             text-align: center;
@@ -78,19 +163,87 @@
     </style>
 </head>
 <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <div class="topnavbar-above">&nbsp;</div>
+        <div class="topnav-container">
+            <a href="privacy-policy.html">
+                <p id="privacy-policy">Privacy Policy</p>
+            </a>
+            <i class="ri-mail-line" id="mailto"></i>
+            <a href="mailto:someone@example.com">
+                <p id="mailtoadd">registrar@isabela.uphsl.edu.ph</p>
+            </a>
+            <a id="socialfb" href="https://www.facebook.com/UPHIsabela">
+                <i class="ri-facebook-fill"></i>
+            </a>
+            <a id="socialinsta" href="https://www.instagram.com/uphs.isabela/">
+                <i class="ri-instagram-line"></i>
+            </a>
+            <a id="socialcontacts" href="tel:+63 917 855 5706">
+                <i class="ri-phone-fill"></i>
+            </a>
+        </div>
+        <!-- <div class="navbar-above">&nbsp;</div> -->
+        <div class="navbar-above1">&nbsp;</div>
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <!-- <i class="ri-code-s-slash-line"></i> CodeBox -->
+                    <img src="assets/images/isabela_logo.png" alt="School Logo" style="height: 50px;">
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link" style="text-decoration: none; color: #fff;">Home</a></li>
+
+                    <!-- Digital Exploration Dropdown -->
+                    <li class="dropdown__item">
+                        <a href="#" class="nav__link dropdown__button" style="text-decoration: none; color: #fff;">Digital Exploration<i class="ri-arrow-down-s-line dropdown__arrow"></i></a>
+                        <div class="dropdown__container">
+                            <ul class="dropdown__list">
+                                <li><a href="app-files/index.html" class="dropdown__link" style="font-weight: bold; font-size:16px; padding-right: 20px; word-wrap: normal;">Virtual&nbsp;Tour</a>
+                                </li>
+                                <li><a href="maps.html" class="dropdown__link" style="font-weight: bold; font-size:16px;">Maps</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- About Dropdown -->
+                    <li class="dropdown__item">
+                        <a href="#" class="nav__link dropdown__button" style="text-decoration: none; color: #fff;">About<i class="ri-arrow-down-s-line dropdown__arrow"></i></a>
+                        <div class="dropdown__container">
+                            <ul class="dropdown__list">
+                                <li><a href="campuses.html" class="dropdown__link" style="font-weight: bold; font-size:16px; word-wrap: normal; padding-right: 20px;">UPHS&nbsp;Campuses</a>
+                                </li>
+                                <li><a href="about2.html" class="dropdown__link" style="font-weight: bold; font-size:16px;">Mission &amp; Vision</a></li>
+                                <li><a href="about.html" class="dropdown__link" style="font-weight: bold; font-size:16px;">Video</a></li>
+                <li><a href="history.html" class="dropdown__link" style="font-weight: bold; font-size:16px;">History</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="container">
         <div class="history-header">
             <h1><i class="fa-solid fa-landmark"></i> History</h1>
         </div>
-        <img src="img/bw_uph.jpg" alt="UPHSL Founding" class="history-img">
+        <img src="assets/images/bw_uph.jpg" alt="UPHSL Founding" class="history-img">
         <div class="founders">
             <div class="founder-card">
-                <img src="img/antonio.jpg" alt="Dr. Antonio Laperal Tamayo" class="founder-img">
+                <img src="assets/images/antonio_tamayo.jpg" alt="Dr. Antonio Laperal Tamayo" class="founder-img">
                 <div class="founder-name">Dr. Antonio Laperal Tamayo</div>
                 <div class="founder-role">Founder</div>
             </div>
             <div class="founder-card">
-                <img src="img/daisy.jpg" alt="Dr. Daisy Moran Tamayo" class="founder-img">
+                <img src="assets/images/daisy_tamayo.jpg" alt="Dr. Daisy Moran Tamayo" class="founder-img">
                 <div class="founder-name">Dr. Daisy Moran Tamayo</div>
                 <div class="founder-role">Co-Founder</div>
             </div>
